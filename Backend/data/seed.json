@@ -1,0 +1,3472 @@
+{
+  "CATEGORIES": [
+    {
+      "id": "jee",
+      "name": "JEE",
+      "icon": "atom",
+      "tint": "#FDECEC",
+      "accent": "#EF4444",
+      "description": "Master JEE Main & Advanced online with top IITian mentors.",
+      "tracks": [
+        {
+          "id": "jee-class-11",
+          "name": "Class 11"
+        },
+        {
+          "id": "jee-class-12",
+          "name": "Class 12"
+        },
+        {
+          "id": "jee-dropper",
+          "name": "Dropper"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "jee-physics",
+          "name": "Physics",
+          "color": "#2563EB"
+        },
+        {
+          "id": "jee-chemistry",
+          "name": "Chemistry",
+          "color": "#7C3AED"
+        },
+        {
+          "id": "jee-maths",
+          "name": "Mathematics",
+          "color": "#DC2626"
+        }
+      ]
+    },
+    {
+      "id": "neet",
+      "name": "NEET",
+      "icon": "dna",
+      "tint": "#EEF7EE",
+      "accent": "#10B981",
+      "description": "Comprehensive NCERT-aligned online medical entrance preparation.",
+      "tracks": [
+        {
+          "id": "neet-class-11",
+          "name": "Class 11"
+        },
+        {
+          "id": "neet-class-12",
+          "name": "Class 12"
+        },
+        {
+          "id": "neet-dropper",
+          "name": "Dropper"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "neet-physics",
+          "name": "Physics",
+          "color": "#2563EB"
+        },
+        {
+          "id": "neet-chemistry",
+          "name": "Chemistry",
+          "color": "#7C3AED"
+        },
+        {
+          "id": "neet-biology",
+          "name": "Biology",
+          "color": "#059669"
+        }
+      ]
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation",
+      "icon": "backpack",
+      "tint": "#FEF9E0",
+      "accent": "#F59E0B",
+      "description": "Build an unbeatable conceptual foundation for classes 8 to 10.",
+      "tracks": [
+        {
+          "id": "foundation-class-8",
+          "name": "Class 8"
+        },
+        {
+          "id": "foundation-class-9",
+          "name": "Class 9"
+        },
+        {
+          "id": "foundation-class-10",
+          "name": "Class 10"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "foundation-science",
+          "name": "Science",
+          "color": "#0284C7"
+        },
+        {
+          "id": "foundation-maths",
+          "name": "Mathematics",
+          "color": "#DC2626"
+        },
+        {
+          "id": "foundation-mental-ability",
+          "name": "Mental Ability",
+          "color": "#9333EA"
+        }
+      ]
+    },
+    {
+      "id": "ca",
+      "name": "CA",
+      "icon": "ledger",
+      "tint": "#FDF3E1",
+      "accent": "#D97706",
+      "description": "Chartered Accountancy prep across Foundation, Inter, and Final.",
+      "tracks": [
+        {
+          "id": "ca-foundation",
+          "name": "Foundation"
+        },
+        {
+          "id": "ca-intermediate",
+          "name": "Intermediate"
+        },
+        {
+          "id": "ca-final",
+          "name": "Final"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "ca-accounting",
+          "name": "Accounting",
+          "color": "#0D9488"
+        },
+        {
+          "id": "ca-law",
+          "name": "Business Law",
+          "color": "#4338CA"
+        },
+        {
+          "id": "ca-taxation",
+          "name": "Taxation",
+          "color": "#EA580C"
+        },
+        {
+          "id": "ca-audit",
+          "name": "Auditing",
+          "color": "#475569"
+        },
+        {
+          "id": "ca-costing",
+          "name": "Cost Management",
+          "color": "#B45309"
+        },
+        {
+          "id": "ca-economics",
+          "name": "Economics",
+          "color": "#16A34A"
+        }
+      ]
+    },
+    {
+      "id": "upsc",
+      "name": "UPSC",
+      "icon": "building",
+      "tint": "#EAF4FB",
+      "accent": "#3B82F6",
+      "description": "Civil Services CSE preparation with curated answer-writing modules.",
+      "tracks": [
+        {
+          "id": "upsc-prelims",
+          "name": "Prelims"
+        },
+        {
+          "id": "upsc-mains",
+          "name": "Mains"
+        },
+        {
+          "id": "upsc-optional",
+          "name": "Optional"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "upsc-polity",
+          "name": "Polity",
+          "color": "#2563EB"
+        },
+        {
+          "id": "upsc-history",
+          "name": "History",
+          "color": "#9A3412"
+        },
+        {
+          "id": "upsc-geography",
+          "name": "Geography",
+          "color": "#059669"
+        },
+        {
+          "id": "upsc-economy",
+          "name": "Economy",
+          "color": "#16A34A"
+        },
+        {
+          "id": "upsc-environment",
+          "name": "Environment & Ecology",
+          "color": "#64748B"
+        },
+        {
+          "id": "upsc-csat",
+          "name": "CSAT Aptitude",
+          "color": "#64748B"
+        }
+      ]
+    },
+    {
+      "id": "ssc",
+      "name": "SSC",
+      "icon": "clipboard",
+      "tint": "#F1EEFB",
+      "accent": "#8B5CF6",
+      "description": "Crack SSC CGL, CHSL, MTS & GD through high-speed shortcuts.",
+      "tracks": [
+        {
+          "id": "ssc-cgl",
+          "name": "CGL"
+        },
+        {
+          "id": "ssc-chsl",
+          "name": "CHSL"
+        },
+        {
+          "id": "ssc-mts",
+          "name": "MTS"
+        },
+        {
+          "id": "ssc-gd",
+          "name": "GD"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "ssc-quant",
+          "name": "Quant",
+          "color": "#D97706"
+        },
+        {
+          "id": "ssc-reasoning",
+          "name": "Reasoning",
+          "color": "#4F46E5"
+        },
+        {
+          "id": "ssc-english",
+          "name": "English",
+          "color": "#0891B2"
+        },
+        {
+          "id": "ssc-ga",
+          "name": "General Awareness",
+          "color": "#0284C7"
+        }
+      ]
+    },
+    {
+      "id": "banking",
+      "name": "Banking",
+      "icon": "bank",
+      "tint": "#EAF4FB",
+      "accent": "#0284C7",
+      "description": "Target IBPS PO, SBI PO, Clerk & RBI Grade B banking officers.",
+      "tracks": [
+        {
+          "id": "bank-ibps-po",
+          "name": "IBPS PO"
+        },
+        {
+          "id": "bank-sbi-po",
+          "name": "SBI PO"
+        },
+        {
+          "id": "bank-clerk",
+          "name": "Clerk"
+        },
+        {
+          "id": "bank-rbi-b",
+          "name": "RBI Grade B"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "bank-quant",
+          "name": "Quant",
+          "color": "#D97706"
+        },
+        {
+          "id": "bank-reasoning",
+          "name": "Reasoning",
+          "color": "#4F46E5"
+        },
+        {
+          "id": "bank-english",
+          "name": "English",
+          "color": "#0891B2"
+        },
+        {
+          "id": "bank-ga",
+          "name": "General Awareness",
+          "color": "#0284C7"
+        }
+      ]
+    },
+    {
+      "id": "railways",
+      "name": "Railways",
+      "icon": "train",
+      "tint": "#FDECEC",
+      "accent": "#E11D48",
+      "description": "Live interactive courses for RRB NTPC, ALP and Group D examinations.",
+      "tracks": [
+        {
+          "id": "rrb-ntpc",
+          "name": "RRB NTPC"
+        },
+        {
+          "id": "rrb-group-d",
+          "name": "Group D"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "rrb-quant",
+          "name": "Quant",
+          "color": "#D97706"
+        },
+        {
+          "id": "rrb-reasoning",
+          "name": "Reasoning",
+          "color": "#4F46E5"
+        },
+        {
+          "id": "rrb-ga",
+          "name": "General Awareness",
+          "color": "#0284C7"
+        },
+        {
+          "id": "rrb-english",
+          "name": "English",
+          "color": "#0891B2"
+        }
+      ]
+    },
+    {
+      "id": "defence",
+      "name": "Defence",
+      "icon": "shield",
+      "tint": "#EEF7EE",
+      "accent": "#059669",
+      "description": "Crack NDA, CDS and AFCAT written exams with defence veterans.",
+      "tracks": [
+        {
+          "id": "def-nda",
+          "name": "NDA"
+        },
+        {
+          "id": "def-cds",
+          "name": "CDS"
+        },
+        {
+          "id": "def-afcat",
+          "name": "AFCAT"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "def-maths",
+          "name": "Mathematics",
+          "color": "#DC2626"
+        },
+        {
+          "id": "def-english",
+          "name": "English",
+          "color": "#0891B2"
+        },
+        {
+          "id": "def-gk",
+          "name": "General Knowledge",
+          "color": "#0284C7"
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "name": "Teaching",
+      "icon": "book",
+      "tint": "#FEF9E0",
+      "accent": "#CA8A04",
+      "description": "CTET and State TET paper 1 and paper 2 qualification online prep.",
+      "tracks": [
+        {
+          "id": "teach-ctet",
+          "name": "CTET"
+        },
+        {
+          "id": "teach-state-tet",
+          "name": "State TET"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "teach-pedagogy",
+          "name": "Child Pedagogy",
+          "color": "#D97706"
+        },
+        {
+          "id": "teach-language",
+          "name": "Language",
+          "color": "#0D9488"
+        },
+        {
+          "id": "teach-maths",
+          "name": "Mathematics",
+          "color": "#DC2626"
+        },
+        {
+          "id": "teach-evs",
+          "name": "EVS",
+          "color": "#15803D"
+        }
+      ]
+    },
+    {
+      "id": "state-psc",
+      "name": "State PSC",
+      "icon": "flag",
+      "tint": "#FDF3E1",
+      "accent": "#EA580C",
+      "description": "State civil service exams (UPPSC, BPSC, RPSC) state-specific modules.",
+      "tracks": [
+        {
+          "id": "psc-uppsc",
+          "name": "UPPSC"
+        },
+        {
+          "id": "psc-bpsc",
+          "name": "BPSC"
+        },
+        {
+          "id": "psc-rpsc",
+          "name": "RPSC"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "psc-polity",
+          "name": "Polity",
+          "color": "#2563EB"
+        },
+        {
+          "id": "psc-history",
+          "name": "History",
+          "color": "#9A3412"
+        },
+        {
+          "id": "psc-geography",
+          "name": "Geography",
+          "color": "#059669"
+        },
+        {
+          "id": "psc-economy",
+          "name": "Economy",
+          "color": "#16A34A"
+        },
+        {
+          "id": "psc-environment",
+          "name": "Ecology & Environment",
+          "color": "#64748B"
+        },
+        {
+          "id": "psc-csat",
+          "name": "General Mental Ability (CSAT)",
+          "color": "#64748B"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "name": "Law",
+      "icon": "scales",
+      "tint": "#F1EEFB",
+      "accent": "#7C3AED",
+      "description": "CLAT UG & PG legal reasoning and reading comprehension live cohorts.",
+      "tracks": [
+        {
+          "id": "law-clat",
+          "name": "CLAT"
+        }
+      ],
+      "subjects": [
+        {
+          "id": "law-english",
+          "name": "English",
+          "color": "#0891B2"
+        },
+        {
+          "id": "law-legal",
+          "name": "Legal Reasoning",
+          "color": "#4338CA"
+        },
+        {
+          "id": "law-logical",
+          "name": "Logical Reasoning",
+          "color": "#6D28D9"
+        },
+        {
+          "id": "law-gk",
+          "name": "General Knowledge",
+          "color": "#0284C7"
+        },
+        {
+          "id": "law-quant",
+          "name": "Quant",
+          "color": "#D97706"
+        }
+      ]
+    }
+  ],
+  "COURSES": [
+    {
+      "id": "course-jee-target",
+      "title": "JEE Main & Advanced 2027: Pinnacle 2-Year Program",
+      "slug": "jee-main-advanced-pinnacle-2027",
+      "categoryId": "jee",
+      "trackId": "jee-class-11",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 18999,
+      "originalPrice": 28999,
+      "duration": "24 Months",
+      "totalHours": 650,
+      "totalTests": 45,
+      "isFeatured": true,
+      "description": "Complete 2-year live online interactive batch covering class 11 and 12 syllabus with daily problem-solving sheets, live doubt lounges, and test series.",
+      "subjectIds": [
+        "jee-physics",
+        "jee-chemistry",
+        "jee-maths"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-2",
+        "fac-3"
+      ],
+      "highlights": [
+        "500+ Live interactive online lectures",
+        "Daily Live Doubt Solving",
+        "National Online Test Series with AI ranking",
+        "Comprehensive Digital Study Vault"
+      ]
+    },
+    {
+      "id": "course-jee-c11-foundations",
+      "title": "JEE Class 11 Core Mechanics & Algebra Foundation",
+      "slug": "jee-class-11-core-mechanics-algebra",
+      "categoryId": "jee",
+      "trackId": "jee-class-11",
+      "type": "FOUNDATION",
+      "level": "BEGINNER",
+      "price": 12499,
+      "originalPrice": 17999,
+      "duration": "12 Months",
+      "totalHours": 320,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Master Class 11 physics mechanics, physical chemistry, and algebra concepts to build an unbeatable foundation.",
+      "subjectIds": [
+        "jee-physics",
+        "jee-chemistry",
+        "jee-maths"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-3"
+      ],
+      "highlights": [
+        "Deep conceptual grounding",
+        "Interactive live whiteboard classes",
+        "Weekly practice problem sets",
+        "Personalized doubt sessions"
+      ]
+    },
+    {
+      "id": "course-jee-crash",
+      "title": "JEE Main 2026: 90-Day High-Impact Crash Batch",
+      "slug": "jee-main-90-day-crash-batch",
+      "categoryId": "jee",
+      "trackId": "jee-class-12",
+      "type": "CRASH",
+      "level": "INTERMEDIATE",
+      "price": 6999,
+      "originalPrice": 11999,
+      "duration": "3 Months",
+      "totalHours": 180,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Intensive online revision module with most-probable question drills, formula marathons, and full-length CBT mock tests.",
+      "subjectIds": [
+        "jee-physics",
+        "jee-chemistry",
+        "jee-maths"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-3"
+      ],
+      "highlights": [
+        "Daily 3-hour live problem solving",
+        "15 Proctored CBT Mock Tests",
+        "Handwritten Revision Notes PDF",
+        "Weekly Strategy Mentorship"
+      ]
+    },
+    {
+      "id": "course-jee-c12-boards-jee",
+      "title": "JEE Class 12 Electro-Calculus & Organic Comprehensive",
+      "slug": "jee-class-12-electro-calculus-comprehensive",
+      "categoryId": "jee",
+      "trackId": "jee-class-12",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 15999,
+      "originalPrice": 22999,
+      "duration": "12 Months",
+      "totalHours": 420,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "Complete 1-year Class 12 batch integrating competitive JEE Main & Advanced prep with board exam perfection.",
+      "subjectIds": [
+        "jee-physics",
+        "jee-chemistry",
+        "jee-maths"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-2",
+        "fac-3"
+      ],
+      "highlights": [
+        "Dual Boards + JEE curriculum coverage",
+        "Calculus and Electrodynamics drills",
+        "25 Full-length online mocks",
+        "24/7 Photo Doubt Assistant"
+      ]
+    },
+    {
+      "id": "course-jee-test-series",
+      "title": "JEE Advanced All India Online Test Series (AIOTS)",
+      "slug": "jee-advanced-all-india-online-test-series",
+      "categoryId": "jee",
+      "trackId": "jee-dropper",
+      "type": "TEST_SERIES",
+      "level": "ADVANCED",
+      "price": 3499,
+      "originalPrice": 5999,
+      "duration": "6 Months",
+      "totalHours": 90,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Real exam-simulation online tests with detailed video solutions and in-depth weak-topic analytics.",
+      "subjectIds": [
+        "jee-physics",
+        "jee-chemistry",
+        "jee-maths"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-2",
+        "fac-3"
+      ],
+      "highlights": [
+        "30 Full Syllabus Mocks",
+        "Video Explanations for all questions",
+        "National Percentile Benchmarking",
+        "Instant Performance Diagnostics"
+      ]
+    },
+    {
+      "id": "course-jee-dropper-rank",
+      "title": "JEE 2026: Dropper Target Rank Accelerator Cohort",
+      "slug": "jee-dropper-target-rank-accelerator",
+      "categoryId": "jee",
+      "trackId": "jee-dropper",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 16499,
+      "originalPrice": 24999,
+      "duration": "9 Months",
+      "totalHours": 480,
+      "totalTests": 40,
+      "isFeatured": false,
+      "description": "Full-time intensive online cohort for repeaters covering entire 11th and 12th syllabus with error-minimization drills.",
+      "subjectIds": [
+        "jee-physics",
+        "jee-chemistry",
+        "jee-maths"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-2",
+        "fac-3"
+      ],
+      "highlights": [
+        "Daily 4 hours live lectures",
+        "Daily 100 questions practice vault",
+        "Special advanced problem sessions",
+        "Weekly performance reviews"
+      ]
+    },
+    {
+      "id": "course-neet-comprehensive",
+      "title": "NEET 2027: Medico Premier Comprehensive Batch",
+      "slug": "neet-medico-premier-batch-2027",
+      "categoryId": "neet",
+      "trackId": "neet-class-11",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 17999,
+      "originalPrice": 26999,
+      "duration": "24 Months",
+      "totalHours": 620,
+      "totalTests": 50,
+      "isFeatured": true,
+      "description": "Deep dive into 100% NCERT syllabus with 3D diagram lectures, daily DPPs, and personalized doubt sessions.",
+      "subjectIds": [
+        "neet-physics",
+        "neet-chemistry",
+        "neet-biology"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-2",
+        "fac-4"
+      ],
+      "highlights": [
+        "NCERT Line-by-Line Video Breakdown",
+        "Daily 2-hour Live Interactive Class",
+        "60+ Chapter-wise Unit Tests",
+        "Dedicated Online Mentor"
+      ]
+    },
+    {
+      "id": "course-neet-c11-cellular",
+      "title": "NEET Class 11 Cellular & Morphological Botany Lab",
+      "slug": "neet-class-11-cellular-botany-lab",
+      "categoryId": "neet",
+      "trackId": "neet-class-11",
+      "type": "FOUNDATION",
+      "level": "BEGINNER",
+      "price": 11999,
+      "originalPrice": 17999,
+      "duration": "12 Months",
+      "totalHours": 310,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Master high-yield Class 11 Botany, Zoology anatomy, and physics kinematics with visual mnemonics.",
+      "subjectIds": [
+        "neet-biology",
+        "neet-physics"
+      ],
+      "facultyIds": [
+        "fac-4",
+        "fac-1"
+      ],
+      "highlights": [
+        "NCERT diagram masterclasses",
+        "Chapter-wise MCQ question bank",
+        "Live doubt clearing sessions",
+        "Color revision mind-maps"
+      ]
+    },
+    {
+      "id": "course-neet-c12-genetics",
+      "title": "NEET Class 12 Genetics & Human Physiology Pro",
+      "slug": "neet-class-12-genetics-human-physiology",
+      "categoryId": "neet",
+      "trackId": "neet-class-12",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 15499,
+      "originalPrice": 22999,
+      "duration": "12 Months",
+      "totalHours": 410,
+      "totalTests": 40,
+      "isFeatured": false,
+      "description": "Complete 1-year Class 12 medical entrance preparation with in-depth genetics and human physiology modules.",
+      "subjectIds": [
+        "neet-physics",
+        "neet-chemistry",
+        "neet-biology"
+      ],
+      "facultyIds": [
+        "fac-2",
+        "fac-4"
+      ],
+      "highlights": [
+        "Rigorous NCERT word-by-word analysis",
+        "High-yield physics numerical tricks",
+        "40 Full syllabus mock tests",
+        "Personalized mentor counseling"
+      ]
+    },
+    {
+      "id": "course-neet-c12-crash",
+      "title": "NEET 2026: 100-Day NCERT Rapid Fire Revision",
+      "slug": "neet-100-day-ncert-rapid-fire",
+      "categoryId": "neet",
+      "trackId": "neet-class-12",
+      "type": "CRASH",
+      "level": "INTERMEDIATE",
+      "price": 6499,
+      "originalPrice": 10999,
+      "duration": "3.5 Months",
+      "totalHours": 190,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Sprint through high-weightage medical entrance topics with daily speed tests and live formula marathons.",
+      "subjectIds": [
+        "neet-physics",
+        "neet-chemistry",
+        "neet-biology"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-4"
+      ],
+      "highlights": [
+        "Daily 3 hours live revision",
+        "20 Proctored CBT Mocks",
+        "Digital NCERT formula handbook",
+        "Negative marks reduction tricks"
+      ]
+    },
+    {
+      "id": "course-neet-dropper",
+      "title": "NEET 2026: Dropper Rank Booster Batch",
+      "slug": "neet-dropper-rank-booster-2026",
+      "categoryId": "neet",
+      "trackId": "neet-dropper",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 12999,
+      "originalPrice": 19999,
+      "duration": "10 Months",
+      "totalHours": 420,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "High-yield conceptual revision, error analysis sessions, and speed calculation drills for NEET repeaters.",
+      "subjectIds": [
+        "neet-physics",
+        "neet-chemistry",
+        "neet-biology"
+      ],
+      "facultyIds": [
+        "fac-2",
+        "fac-4"
+      ],
+      "highlights": [
+        "Rapid Syllabus Coverage",
+        "Weekly Mock Test with Video Solutions",
+        "Strict Schedule & Attendance Tracker",
+        "Live Doubt Clearing Desk"
+      ]
+    },
+    {
+      "id": "course-neet-dropper-test",
+      "title": "NEET All India Medical Online Test Marathon (AIOTS)",
+      "slug": "neet-all-india-online-test-marathon",
+      "categoryId": "neet",
+      "trackId": "neet-dropper",
+      "type": "TEST_SERIES",
+      "level": "ADVANCED",
+      "price": 2999,
+      "originalPrice": 4999,
+      "duration": "6 Months",
+      "totalHours": 75,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "Full-syllabus proctored tests with national rank benchmarking and minute-by-minute question analytics.",
+      "subjectIds": [
+        "neet-physics",
+        "neet-chemistry",
+        "neet-biology"
+      ],
+      "facultyIds": [
+        "fac-1",
+        "fac-4"
+      ],
+      "highlights": [
+        "35 Full NEET pattern tests",
+        "Video solutions by Dr. Sunita",
+        "Instant percentile prediction",
+        "Topic error diagnostics"
+      ]
+    },
+    {
+      "id": "course-fnd-c8-junior",
+      "title": "Class 8 Science & Maths Prodigy Foundation",
+      "slug": "class-8-science-maths-prodigy",
+      "categoryId": "foundation",
+      "trackId": "foundation-class-8",
+      "type": "FOUNDATION",
+      "level": "BEGINNER",
+      "price": 6999,
+      "originalPrice": 9999,
+      "duration": "12 Months",
+      "totalHours": 180,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Nurture scientific curiosity and mathematical reasoning early with interactive animations and experiments.",
+      "subjectIds": [
+        "foundation-science",
+        "foundation-maths"
+      ],
+      "facultyIds": [
+        "fac-3",
+        "fac-4"
+      ],
+      "highlights": [
+        "Gamified science concepts",
+        "Interactive mental math tricks",
+        "Weekly weekend quizzes",
+        "Recorded class access"
+      ]
+    },
+    {
+      "id": "course-fnd-c8-olympiad",
+      "title": "Class 8 Junior STEM & Mental Ability Special",
+      "slug": "class-8-junior-stem-mental-ability",
+      "categoryId": "foundation",
+      "trackId": "foundation-class-8",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 4999,
+      "originalPrice": 7999,
+      "duration": "6 Months",
+      "totalHours": 110,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Early preparation for Junior Science Olympiads and mental aptitude competitions.",
+      "subjectIds": [
+        "foundation-mental-ability",
+        "foundation-maths"
+      ],
+      "facultyIds": [
+        "fac-3"
+      ],
+      "highlights": [
+        "Pattern recognition puzzles",
+        "Speed arithmetic drills",
+        "Olympiad question banks",
+        "Doubt lounge support"
+      ]
+    },
+    {
+      "id": "course-foundation-class-9",
+      "title": "Class 9 Science & Maths Early Prodigy Batch",
+      "slug": "class-9-early-prodigy-batch",
+      "categoryId": "foundation",
+      "trackId": "foundation-class-9",
+      "type": "FOUNDATION",
+      "level": "BEGINNER",
+      "price": 7499,
+      "originalPrice": 11999,
+      "duration": "12 Months",
+      "totalHours": 200,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Lay solid groundwork for competitive STEM tracks with engaging live visual sessions and quizzes.",
+      "subjectIds": [
+        "foundation-science",
+        "foundation-maths"
+      ],
+      "facultyIds": [
+        "fac-3",
+        "fac-4"
+      ],
+      "highlights": [
+        "Visual STEM concept teaching",
+        "Weekend Live Quizzes",
+        "Personalized Doubt Support",
+        "Bilingual Class Notes"
+      ]
+    },
+    {
+      "id": "course-fnd-c9-olympiad",
+      "title": "Class 9 NTSE & Olympiad Mental Ability Special",
+      "slug": "class-9-ntse-olympiad-mental-ability",
+      "categoryId": "foundation",
+      "trackId": "foundation-class-9",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 5499,
+      "originalPrice": 8499,
+      "duration": "8 Months",
+      "totalHours": 140,
+      "totalTests": 22,
+      "isFeatured": false,
+      "description": "Analytical reasoning, logical deduction, and advanced geometry problem-solving for Class 9 toppers.",
+      "subjectIds": [
+        "foundation-mental-ability",
+        "foundation-science"
+      ],
+      "facultyIds": [
+        "fac-3",
+        "fac-4"
+      ],
+      "highlights": [
+        "NTSE Stage-1 simulation",
+        "Weekly speed mental ability contests",
+        "Detailed video explanations",
+        "Conceptual mind-maps"
+      ]
+    },
+    {
+      "id": "course-foundation-class-10",
+      "title": "Class 10 Foundation & Olympiad Mastery 2026-27",
+      "slug": "class-10-foundation-olympiad-mastery",
+      "categoryId": "foundation",
+      "trackId": "foundation-class-10",
+      "type": "FOUNDATION",
+      "level": "BEGINNER",
+      "price": 8499,
+      "originalPrice": 13999,
+      "duration": "12 Months",
+      "totalHours": 240,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Strengthen STEM intuition, ace board examinations, and prepare for NTSE and Science Olympiads early.",
+      "subjectIds": [
+        "foundation-science",
+        "foundation-maths",
+        "foundation-mental-ability"
+      ],
+      "facultyIds": [
+        "fac-3",
+        "fac-4"
+      ],
+      "highlights": [
+        "Interactive concept builders",
+        "Board Exam Answer Writing Workshops",
+        "Mental Ability & Logical Aptitude",
+        "Recorded Vault with Infinite Replays"
+      ]
+    },
+    {
+      "id": "course-fnd-c10-boards",
+      "title": "Class 10 Board Excellence & Science Intensive",
+      "slug": "class-10-board-excellence-science-intensive",
+      "categoryId": "foundation",
+      "trackId": "foundation-class-10",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 6999,
+      "originalPrice": 10999,
+      "duration": "8 Months",
+      "totalHours": 190,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Target 95%+ in Class 10 board examinations with comprehensive NCERT problem solving and answer presentation.",
+      "subjectIds": [
+        "foundation-science",
+        "foundation-maths"
+      ],
+      "facultyIds": [
+        "fac-3",
+        "fac-4"
+      ],
+      "highlights": [
+        "Previous 10 years board paper solutions",
+        "Step-by-step marking scheme training",
+        "Weekly proctored subjective tests",
+        "Quick formula sheets"
+      ]
+    },
+    {
+      "id": "course-ca-foundation",
+      "title": "CA Foundation: Complete 4-Paper Live Cohort",
+      "slug": "ca-foundation-complete-cohort",
+      "categoryId": "ca",
+      "trackId": "ca-foundation",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 11499,
+      "originalPrice": 17999,
+      "duration": "6 Months",
+      "totalHours": 320,
+      "totalTests": 18,
+      "isFeatured": true,
+      "description": "Structured online classes for Accounting, Business Law, Quantitative Aptitude and Business Economics.",
+      "subjectIds": [
+        "ca-accounting",
+        "ca-law",
+        "ca-economics"
+      ],
+      "facultyIds": [
+        "fac-5"
+      ],
+      "highlights": [
+        "ICAI Study Material Mapping",
+        "Subjective Test Paper Evaluation",
+        "10 Full Exam Simulation Mocks",
+        "Live Revision Bootcamps"
+      ]
+    },
+    {
+      "id": "course-ca-fnd-accounts",
+      "title": "CA Foundation Principles of Accounting Masterclass",
+      "slug": "ca-foundation-principles-accounting-masterclass",
+      "categoryId": "ca",
+      "trackId": "ca-foundation",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 4999,
+      "originalPrice": 7999,
+      "duration": "4 Months",
+      "totalHours": 120,
+      "totalTests": 12,
+      "isFeatured": false,
+      "description": "Zero-to-hero level accounting mastery covering journal entries, balance sheets, and partnership adjustments.",
+      "subjectIds": [
+        "ca-accounting"
+      ],
+      "facultyIds": [
+        "fac-5"
+      ],
+      "highlights": [
+        "ICAI module numerical problems",
+        "Daily handwritten homework review",
+        "Concept flowcharts",
+        "Live weekend doubt desk"
+      ]
+    },
+    {
+      "id": "course-ca-inter-tax",
+      "title": "CA Intermediate: Direct & Indirect Tax Intensive",
+      "slug": "ca-intermediate-taxation-intensive",
+      "categoryId": "ca",
+      "trackId": "ca-intermediate",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 5499,
+      "originalPrice": 8999,
+      "duration": "4 Months",
+      "totalHours": 120,
+      "totalTests": 12,
+      "isFeatured": false,
+      "description": "Master Income Tax Act provisions and GST case laws with extensive numerical practice.",
+      "subjectIds": [
+        "ca-taxation"
+      ],
+      "facultyIds": [
+        "fac-5"
+      ],
+      "highlights": [
+        "Latest Finance Act amendments covered",
+        "200+ Solved Practical Problems",
+        "Summary Chartbooks",
+        "Live Doubt Resolution"
+      ]
+    },
+    {
+      "id": "course-ca-inter-audit",
+      "title": "CA Intermediate Costing & Auditing Master Cohort",
+      "slug": "ca-intermediate-costing-auditing-master",
+      "categoryId": "ca",
+      "trackId": "ca-intermediate",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 9999,
+      "originalPrice": 14999,
+      "duration": "6 Months",
+      "totalHours": 240,
+      "totalTests": 16,
+      "isFeatured": false,
+      "description": "In-depth coverage of cost accounting standards, standard costing formulas, and statutory auditing procedures.",
+      "subjectIds": [
+        "ca-audit",
+        "ca-costing"
+      ],
+      "facultyIds": [
+        "fac-5"
+      ],
+      "highlights": [
+        "Comprehensive ICAI syllabus mapping",
+        "Case scenario based questions",
+        "10 Evaluated subjective test series",
+        "Recorded vault access"
+      ]
+    },
+    {
+      "id": "course-ca-final-fr",
+      "title": "CA Final Financial Reporting & Ind AS Strategy",
+      "slug": "ca-final-financial-reporting-ind-as",
+      "categoryId": "ca",
+      "trackId": "ca-final",
+      "type": "FULL_COURSE",
+      "level": "ADVANCED",
+      "price": 13999,
+      "originalPrice": 20999,
+      "duration": "6 Months",
+      "totalHours": 260,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Comprehensive Indian Accounting Standards (Ind AS) practical problems and balance sheet consolidation.",
+      "subjectIds": [
+        "ca-accounting"
+      ],
+      "facultyIds": [
+        "fac-5"
+      ],
+      "highlights": [
+        "All Ind AS covered with corporate examples",
+        "Past 10 attempts ICAI papers solved",
+        "Subjective test evaluations by CAs",
+        "Exam presentation tips"
+      ]
+    },
+    {
+      "id": "course-ca-final-direct-tax",
+      "title": "CA Final Direct Tax Laws & International Taxation",
+      "slug": "ca-final-direct-tax-international-taxation",
+      "categoryId": "ca",
+      "trackId": "ca-final",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "ADVANCED",
+      "price": 8999,
+      "originalPrice": 13999,
+      "duration": "5 Months",
+      "totalHours": 160,
+      "totalTests": 12,
+      "isFeatured": false,
+      "description": "Deep dive into corporate tax assessment, transfer pricing, and DTAA international tax treaty interpretation.",
+      "subjectIds": [
+        "ca-taxation"
+      ],
+      "facultyIds": [
+        "fac-5"
+      ],
+      "highlights": [
+        "Case law compilations & judicial rulings",
+        "Amendment summary notes PDF",
+        "8 Mock test papers with feedback",
+        "1-on-1 mentor guidance"
+      ]
+    },
+    {
+      "id": "course-upsc-prelims-crash",
+      "title": "UPSC Prelims 2026: 75-Day Rapid Revision & CSAT",
+      "slug": "upsc-prelims-75-day-rapid-revision",
+      "categoryId": "upsc",
+      "trackId": "upsc-prelims",
+      "type": "CRASH",
+      "level": "INTERMEDIATE",
+      "price": 7999,
+      "originalPrice": 12999,
+      "duration": "2.5 Months",
+      "totalHours": 140,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "High-speed elimination technique mastery, statutory bodies revision, and CSAT speed drills.",
+      "subjectIds": [
+        "upsc-polity",
+        "upsc-economy",
+        "upsc-csat"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-7"
+      ],
+      "highlights": [
+        "Topic-wise Quick Notes",
+        "25 Proctored Online Mock Tests",
+        "CSAT Quantitative Masterclass",
+        "Budget & Economic Survey Decoding"
+      ]
+    },
+    {
+      "id": "course-upsc-prelims-gs-tests",
+      "title": "UPSC Prelims Masterclass: GS-1 Elimination & 35 Mocks",
+      "slug": "upsc-prelims-masterclass-elimination-35-mocks",
+      "categoryId": "upsc",
+      "trackId": "upsc-prelims",
+      "type": "TEST_SERIES",
+      "level": "ADVANCED",
+      "price": 4999,
+      "originalPrice": 8999,
+      "duration": "4 Months",
+      "totalHours": 110,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "Rigorous question-solving module focused on intelligent guesswork, current affairs integration, and 35 proctored mocks.",
+      "subjectIds": [
+        "upsc-polity",
+        "upsc-history",
+        "upsc-geography",
+        "upsc-environment"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-7"
+      ],
+      "highlights": [
+        "35 Full GS & CSAT Mocks",
+        "Detailed video discussion for all 3,500 questions",
+        "Yearly Current Affairs compilations",
+        "Performance analytics dashboard"
+      ]
+    },
+    {
+      "id": "course-upsc-foundation",
+      "title": "UPSC CSE 2027: GS Foundation & Mentorship Batch",
+      "slug": "upsc-cse-gs-foundation-2027",
+      "categoryId": "upsc",
+      "trackId": "upsc-mains",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 24999,
+      "originalPrice": 38999,
+      "duration": "18 Months",
+      "totalHours": 580,
+      "totalTests": 40,
+      "isFeatured": true,
+      "description": "Comprehensive 18-month online program covering GS Prelims + Mains, CSAT, and continuous answer evaluation.",
+      "subjectIds": [
+        "upsc-polity",
+        "upsc-history",
+        "upsc-geography",
+        "upsc-economy",
+        "upsc-environment",
+        "upsc-csat"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-7"
+      ],
+      "highlights": [
+        "Live Daily GS Lectures",
+        "Weekly Mains Answer Writing Evaluation",
+        "Monthly Current Affairs Compilations",
+        "1-on-1 Faculty Video Mentorship"
+      ]
+    },
+    {
+      "id": "course-upsc-mains-writing",
+      "title": "UPSC Mains Answer Writing & Ethics Excellence Cohort",
+      "slug": "upsc-mains-answer-writing-ethics-excellence",
+      "categoryId": "upsc",
+      "trackId": "upsc-mains",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "ADVANCED",
+      "price": 9999,
+      "originalPrice": 15999,
+      "duration": "5 Months",
+      "totalHours": 150,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Dedicated mentorship on structuring introduction, body, diagrams, and conclusions for GS Papers 1 to 4.",
+      "subjectIds": [
+        "upsc-polity",
+        "upsc-history",
+        "upsc-economy"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-7"
+      ],
+      "highlights": [
+        "Daily answer evaluation within 48 hours",
+        "Ethics Case Studies framework",
+        "Topper answer copy analysis",
+        "Weekly live zoom review sessions"
+      ]
+    },
+    {
+      "id": "course-upsc-pubad",
+      "title": "UPSC Public Administration Optional Live Cohort",
+      "slug": "upsc-public-administration-optional-cohort",
+      "categoryId": "upsc",
+      "trackId": "upsc-optional",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 14999,
+      "originalPrice": 22999,
+      "duration": "7 Months",
+      "totalHours": 280,
+      "totalTests": 12,
+      "isFeatured": false,
+      "description": "Administrative theory, thinkers, Indian administration, and contemporary governance reforms for UPSC Optional.",
+      "subjectIds": [
+        "upsc-polity"
+      ],
+      "facultyIds": [
+        "fac-6"
+      ],
+      "highlights": [
+        "Paper 1 & Paper 2 interlinking",
+        "Thinkers diagram cheat sheets",
+        "12 Full-length optional mock tests",
+        "Individual question paper evaluation"
+      ]
+    },
+    {
+      "id": "course-upsc-history-opt",
+      "title": "UPSC History Optional Thematic Synthesis Course",
+      "slug": "upsc-history-optional-thematic-synthesis",
+      "categoryId": "upsc",
+      "trackId": "upsc-optional",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 14999,
+      "originalPrice": 22999,
+      "duration": "7 Months",
+      "totalHours": 290,
+      "totalTests": 12,
+      "isFeatured": false,
+      "description": "Ancient, Medieval, Modern Indian, and World History mapped to previous year question trends with map practice.",
+      "subjectIds": [
+        "upsc-history"
+      ],
+      "facultyIds": [
+        "fac-7"
+      ],
+      "highlights": [
+        "Historical map location training",
+        "Historiography & debate synthesis",
+        "12 Evaluated sectional tests",
+        "Printed notes PDF repository"
+      ]
+    },
+    {
+      "id": "course-ssc-cgl-target",
+      "title": "SSC CGL 2026-27: Lakshya All-in-One Comprehensive",
+      "slug": "ssc-cgl-lakshya-comprehensive-2026-27",
+      "categoryId": "ssc",
+      "trackId": "ssc-cgl",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 4999,
+      "originalPrice": 7999,
+      "duration": "8 Months",
+      "totalHours": 350,
+      "totalTests": 60,
+      "isFeatured": true,
+      "description": "Target top Central Government posts with India’s finest online faculty for Quant, Reasoning, English, and GA.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning",
+        "ssc-english",
+        "ssc-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-10",
+        "fac-14"
+      ],
+      "highlights": [
+        "350+ Hours Live Classes",
+        "10,000+ TCS Pattern Questions",
+        "Tier I & Tier II full coverage",
+        "Topic-wise Speed Tests"
+      ]
+    },
+    {
+      "id": "course-ssc-mock-series",
+      "title": "SSC CGL & CHSL 100 Online Mock Test Marathon",
+      "slug": "ssc-cgl-chsl-100-mock-marathon",
+      "categoryId": "ssc",
+      "trackId": "ssc-cgl",
+      "type": "TEST_SERIES",
+      "level": "ADVANCED",
+      "price": 1499,
+      "originalPrice": 2999,
+      "duration": "12 Months",
+      "totalHours": 50,
+      "totalTests": 100,
+      "isFeatured": false,
+      "description": "Exact exam interface, detailed solution explanations, and real-time percentile comparison.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning",
+        "ssc-english",
+        "ssc-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9"
+      ],
+      "highlights": [
+        "100 Full Mocks (Tier 1 & Tier 2)",
+        "Sectional Speed Boosters",
+        "Video Solutions for tricky sums",
+        "All-India Leaderboards"
+      ]
+    },
+    {
+      "id": "course-ssc-chsl-lakshya",
+      "title": "SSC CHSL 10+2 Complete Tier 1 & Tier 2 Live Batch",
+      "slug": "ssc-chsl-complete-tier-1-and-2",
+      "categoryId": "ssc",
+      "trackId": "ssc-chsl",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 3999,
+      "originalPrice": 6499,
+      "duration": "6 Months",
+      "totalHours": 260,
+      "totalTests": 40,
+      "isFeatured": false,
+      "description": "Master quantitative aptitude shortcuts, grammar comprehension, and descriptive modules for LDC & DEO posts.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning",
+        "ssc-english",
+        "ssc-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-10"
+      ],
+      "highlights": [
+        "Complete syllabus coverage from basics",
+        "High-speed shortcut techniques",
+        "40 Full CBT mock tests",
+        "Typing test orientation guidance"
+      ]
+    },
+    {
+      "id": "course-ssc-chsl-speed",
+      "title": "SSC CHSL Speed Arithmetic & Clerical Reasoning Batch",
+      "slug": "ssc-chsl-speed-arithmetic-reasoning",
+      "categoryId": "ssc",
+      "trackId": "ssc-chsl",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 1999,
+      "originalPrice": 3499,
+      "duration": "3 Months",
+      "totalHours": 90,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Dedicated speed training to solve 50 maths & reasoning questions in under 30 minutes.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9"
+      ],
+      "highlights": [
+        "15-second calculation algorithms",
+        "Daily timer quiz rooms",
+        "Formula cheat-sheets PDF",
+        "Live doubt clearing"
+      ]
+    },
+    {
+      "id": "course-ssc-mts-target",
+      "title": "SSC MTS Havaldar 2026 Full Syllabus Fast-Track",
+      "slug": "ssc-mts-havaldar-full-syllabus-fast-track",
+      "categoryId": "ssc",
+      "trackId": "ssc-mts",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 2499,
+      "originalPrice": 4299,
+      "duration": "5 Months",
+      "totalHours": 180,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Clear the non-technical staff examination with simplified bilingual lessons and daily GK quizzes.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning",
+        "ssc-english",
+        "ssc-ga"
+      ],
+      "facultyIds": [
+        "fac-9",
+        "fac-10",
+        "fac-14"
+      ],
+      "highlights": [
+        "Easy conceptual explanations",
+        "General awareness booster capsules",
+        "30 Online simulation tests",
+        "Free downloadable notes"
+      ]
+    },
+    {
+      "id": "course-ssc-mts-english",
+      "title": "SSC MTS General English & Vocabulary Booster",
+      "slug": "ssc-mts-general-english-vocabulary-booster",
+      "categoryId": "ssc",
+      "trackId": "ssc-mts",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 1299,
+      "originalPrice": 2199,
+      "duration": "2.5 Months",
+      "totalHours": 60,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Ace error spotting, sentence improvement, synonyms, and comprehension for maximum scoring in Section II.",
+      "subjectIds": [
+        "ssc-english"
+      ],
+      "facultyIds": [
+        "fac-10"
+      ],
+      "highlights": [
+        "1000 Most repeated exam words",
+        "Grammar rule flowcharts",
+        "20 Sectional English tests",
+        "Daily live vocabulary sessions"
+      ]
+    },
+    {
+      "id": "course-ssc-gd-constable",
+      "title": "SSC GD Constable 2026: Mission Vardi Online Cohort",
+      "slug": "ssc-gd-constable-mission-vardi-cohort",
+      "categoryId": "ssc",
+      "trackId": "ssc-gd",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 2299,
+      "originalPrice": 3999,
+      "duration": "5 Months",
+      "totalHours": 190,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "Comprehensive preparation for CAPFs, SSF, and Assam Rifles written examination with veteran instructors.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning",
+        "ssc-ga",
+        "ssc-english"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-14"
+      ],
+      "highlights": [
+        "Simple bilingual language delivery",
+        "General science & static GK charts",
+        "35 CBT practice tests",
+        "Exam day time-management tips"
+      ]
+    },
+    {
+      "id": "course-ssc-gd-drills",
+      "title": "SSC GD Constable Daily Mock & Practice Drills",
+      "slug": "ssc-gd-constable-daily-mock-drills",
+      "categoryId": "ssc",
+      "trackId": "ssc-gd",
+      "type": "TEST_SERIES",
+      "level": "INTERMEDIATE",
+      "price": 999,
+      "originalPrice": 1999,
+      "duration": "4 Months",
+      "totalHours": 40,
+      "totalTests": 50,
+      "isFeatured": false,
+      "description": "50 CBT Mock tests matching exact SSC exam pattern with video explanations for every question.",
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning",
+        "ssc-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-14"
+      ],
+      "highlights": [
+        "50 Full Length Tests",
+        "Instant result analysis and solutions",
+        "Ranking against 10,000+ aspirants",
+        "Speed improvement dashboard"
+      ]
+    },
+    {
+      "id": "course-bank-puzzle-di",
+      "title": "Banking High-Level Puzzles & Data Interpretation",
+      "slug": "banking-puzzles-data-interpretation-pro",
+      "categoryId": "banking",
+      "trackId": "bank-ibps-po",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "ADVANCED",
+      "price": 2799,
+      "originalPrice": 4999,
+      "duration": "3 Months",
+      "totalHours": 90,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Crack SBI & IBPS Mains toughest sectional cutoffs with step-by-step schematic deduction frameworks.",
+      "subjectIds": [
+        "bank-quant",
+        "bank-reasoning"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9"
+      ],
+      "highlights": [
+        "150+ Complex Puzzles Solved Live",
+        "Caselet & Missing DI Sessions",
+        "Live Timer Practice Rooms",
+        "Memory Based Questions (2020-2025)"
+      ]
+    },
+    {
+      "id": "course-bank-ibps-po-mains",
+      "title": "IBPS PO 2026: Prelims + Mains Complete Officer Batch",
+      "slug": "ibps-po-prelims-mains-officer-batch",
+      "categoryId": "banking",
+      "trackId": "bank-ibps-po",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 4999,
+      "originalPrice": 7999,
+      "duration": "7 Months",
+      "totalHours": 300,
+      "totalTests": 45,
+      "isFeatured": false,
+      "description": "Holistic banking preparation covering reasoning puzzles, advanced DI, banking awareness, and descriptive letter writing.",
+      "subjectIds": [
+        "bank-quant",
+        "bank-reasoning",
+        "bank-english",
+        "bank-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-10"
+      ],
+      "highlights": [
+        "300+ Hours Live Classrooms",
+        "Monthly Banking Current Affairs capsule",
+        "45 Mock test series with video solutions",
+        "Interview preparation guidance"
+      ]
+    },
+    {
+      "id": "course-bank-po-clerk",
+      "title": "Bank PO & Clerk 2026-27: Vijeta Complete Live Batch",
+      "slug": "bank-po-clerk-vijeta-live-batch",
+      "categoryId": "banking",
+      "trackId": "bank-sbi-po",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 5499,
+      "originalPrice": 8999,
+      "duration": "9 Months",
+      "totalHours": 360,
+      "totalTests": 55,
+      "isFeatured": true,
+      "description": "Target SBI PO, IBPS PO, and RRB PO with focused live modules on high-level puzzles, DI, and financial awareness.",
+      "subjectIds": [
+        "bank-quant",
+        "bank-reasoning",
+        "bank-english",
+        "bank-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-10"
+      ],
+      "highlights": [
+        "Prelims + Mains Combined Strategy",
+        "New Pattern Puzzle Masterclasses",
+        "Banking Current Affairs Weekly Capsules",
+        "Online Descriptive English Module"
+      ]
+    },
+    {
+      "id": "course-bank-sbi-po-elite",
+      "title": "SBI PO 2026: Elite Probationary Officer Masterclass",
+      "slug": "sbi-po-elite-probationary-officer",
+      "categoryId": "banking",
+      "trackId": "bank-sbi-po",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 5999,
+      "originalPrice": 9499,
+      "duration": "8 Months",
+      "totalHours": 340,
+      "totalTests": 50,
+      "isFeatured": false,
+      "description": "Top-tier SBI PO examination curriculum with special focus on high-difficulty reasoning and economic essay evaluation.",
+      "subjectIds": [
+        "bank-quant",
+        "bank-reasoning",
+        "bank-english",
+        "bank-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-10"
+      ],
+      "highlights": [
+        "Mains level extreme puzzle sets",
+        "Descriptive essay writing grading",
+        "50 Full-length CBT test series",
+        "Live doubt clearing sessions"
+      ]
+    },
+    {
+      "id": "course-bank-clerk-speed",
+      "title": "SBI & IBPS Clerk 2026: Speed & Accuracy Sprint",
+      "slug": "bank-clerk-speed-accuracy-sprint",
+      "categoryId": "banking",
+      "trackId": "bank-clerk",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 3499,
+      "originalPrice": 5999,
+      "duration": "5 Months",
+      "totalHours": 200,
+      "totalTests": 40,
+      "isFeatured": false,
+      "description": "Focused on 100% accuracy in 20 minutes per section with daily sectional timer drills.",
+      "subjectIds": [
+        "bank-quant",
+        "bank-reasoning",
+        "bank-english"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-10"
+      ],
+      "highlights": [
+        "Simplification and quadratic equation drills",
+        "Easy-to-moderate puzzle frameworks",
+        "40 Full mock tests",
+        "Digital solution sheets"
+      ]
+    },
+    {
+      "id": "course-bank-clerk-english",
+      "title": "Banking Clerk English & Reading Comprehension Special",
+      "slug": "banking-clerk-english-comprehension-special",
+      "categoryId": "banking",
+      "trackId": "bank-clerk",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 1799,
+      "originalPrice": 2999,
+      "duration": "3 Months",
+      "totalHours": 80,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Master cloze tests, sentence re-arrangement, error detection, and banking reading passages.",
+      "subjectIds": [
+        "bank-english"
+      ],
+      "facultyIds": [
+        "fac-10"
+      ],
+      "highlights": [
+        "Daily editorial vocabulary sessions",
+        "Grammar rules master notes",
+        "25 Sectional tests",
+        "Doubt resolution desk"
+      ]
+    },
+    {
+      "id": "course-bank-rbi-grade-b",
+      "title": "RBI Grade B 2026: Phase 1 & Phase 2 Economics & Finance",
+      "slug": "rbi-grade-b-economics-finance-cohort",
+      "categoryId": "banking",
+      "trackId": "bank-rbi-b",
+      "type": "FULL_COURSE",
+      "level": "ADVANCED",
+      "price": 16999,
+      "originalPrice": 24999,
+      "duration": "10 Months",
+      "totalHours": 420,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Elite regulatory body officer preparation covering Economic & Social Issues (ESI), Finance & Management (FM).",
+      "subjectIds": [
+        "bank-ga",
+        "bank-quant",
+        "bank-reasoning",
+        "bank-english"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-14"
+      ],
+      "highlights": [
+        "ESI & FM in-depth theoretical notes",
+        "Descriptive answer writing evaluation",
+        "Union Budget & Economic Survey deep-dive",
+        "30 Comprehensive mock tests"
+      ]
+    },
+    {
+      "id": "course-bank-rbi-management",
+      "title": "RBI Grade B Finance & Management Specialized Module",
+      "slug": "rbi-grade-b-finance-management-specialized",
+      "categoryId": "banking",
+      "trackId": "bank-rbi-b",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "ADVANCED",
+      "price": 8499,
+      "originalPrice": 12999,
+      "duration": "4 Months",
+      "totalHours": 150,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Detailed analysis of corporate governance, financial markets, banking regulations, and leadership theories.",
+      "subjectIds": [
+        "bank-ga"
+      ],
+      "facultyIds": [
+        "fac-14"
+      ],
+      "highlights": [
+        "Corporate finance numerical problems",
+        "Management thinker summaries",
+        "15 Evaluated descriptive tests",
+        "Recorded lecture vault"
+      ]
+    },
+    {
+      "id": "course-rrb-ntpc",
+      "title": "RRB NTPC & Group D 2026: Speed & Accuracy Batch",
+      "slug": "rrb-ntpc-group-d-speed-batch",
+      "categoryId": "railways",
+      "trackId": "rrb-ntpc",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 3499,
+      "originalPrice": 5999,
+      "duration": "6 Months",
+      "totalHours": 220,
+      "totalTests": 40,
+      "isFeatured": false,
+      "description": "Online batch focused on general science concepts, mental arithmetic, and continuous mock tests.",
+      "subjectIds": [
+        "rrb-quant",
+        "rrb-reasoning",
+        "rrb-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-14"
+      ],
+      "highlights": [
+        "Complete General Science Series",
+        "Bilingual Live Delivery",
+        "Chapter-wise Quizzes",
+        "Exam-day Time Management Hacks"
+      ]
+    },
+    {
+      "id": "course-rrb-ntpc-cbt2",
+      "title": "RRB NTPC CBT-2 Special Station Master & Goods Guard",
+      "slug": "rrb-ntpc-cbt2-station-master-special",
+      "categoryId": "railways",
+      "trackId": "rrb-ntpc",
+      "type": "CRASH",
+      "level": "INTERMEDIATE",
+      "price": 2499,
+      "originalPrice": 4199,
+      "duration": "3 Months",
+      "totalHours": 120,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "High-level CBT-2 practice with special focus on advanced reasoning, static GK, and speed calculation.",
+      "subjectIds": [
+        "rrb-quant",
+        "rrb-reasoning",
+        "rrb-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-14"
+      ],
+      "highlights": [
+        "CBT-2 syllabus revision",
+        "30 Full length simulated tests",
+        "General science question bank",
+        "Live doubt rooms"
+      ]
+    },
+    {
+      "id": "course-rrb-group-d-core",
+      "title": "RRB Group D 2026: General Science & Math Foundation",
+      "slug": "rrb-group-d-science-math-foundation",
+      "categoryId": "railways",
+      "trackId": "rrb-group-d",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 2199,
+      "originalPrice": 3899,
+      "duration": "5 Months",
+      "totalHours": 180,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "NCERT based physics, chemistry, biology, and arithmetic modules designed for 100% exam readiness.",
+      "subjectIds": [
+        "rrb-quant",
+        "rrb-reasoning",
+        "rrb-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-9",
+        "fac-14"
+      ],
+      "highlights": [
+        "NCERT 9th & 10th science breakdown",
+        "Calculation speed booster tips",
+        "35 Practice mock tests",
+        "Hindi & English bilingual notes"
+      ]
+    },
+    {
+      "id": "course-rrb-group-d-mocks",
+      "title": "RRB Group D 50 CBT Mock Tests & Live Solution Labs",
+      "slug": "rrb-group-d-50-cbt-mock-tests",
+      "categoryId": "railways",
+      "trackId": "rrb-group-d",
+      "type": "TEST_SERIES",
+      "level": "INTERMEDIATE",
+      "price": 999,
+      "originalPrice": 1899,
+      "duration": "4 Months",
+      "totalHours": 40,
+      "totalTests": 50,
+      "isFeatured": false,
+      "description": "50 Proctored online mock tests with detailed faculty video solutions and percentile ranking.",
+      "subjectIds": [
+        "rrb-quant",
+        "rrb-reasoning",
+        "rrb-ga"
+      ],
+      "facultyIds": [
+        "fac-8",
+        "fac-14"
+      ],
+      "highlights": [
+        "50 Full Length Tests",
+        "Real examination software simulation",
+        "Instant scorecard and solution breakdown",
+        "All-India leaderboards"
+      ]
+    },
+    {
+      "id": "course-def-nda",
+      "title": "NDA 2026: Shaurya Online Written Batch",
+      "slug": "nda-shaurya-online-written-batch",
+      "categoryId": "defence",
+      "trackId": "def-nda",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 6999,
+      "originalPrice": 10999,
+      "duration": "7 Months",
+      "totalHours": 280,
+      "totalTests": 30,
+      "isFeatured": true,
+      "description": "Rigorous NDA maths syllabus and General Ability test preparation with Col. Ranjit Pradhan.",
+      "subjectIds": [
+        "def-maths",
+        "def-english",
+        "def-gk"
+      ],
+      "facultyIds": [
+        "fac-11",
+        "fac-3"
+      ],
+      "highlights": [
+        "Higher Mathematics Shortcut Tricks",
+        "Daily Current Affairs Analysis",
+        "English Vocabulary Boosters",
+        "20 Full-Length Mocks"
+      ]
+    },
+    {
+      "id": "course-def-nda-maths",
+      "title": "NDA Higher Mathematics & GAT Speed Formula Masterclass",
+      "slug": "nda-higher-mathematics-gat-speed",
+      "categoryId": "defence",
+      "trackId": "def-nda",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 3499,
+      "originalPrice": 5999,
+      "duration": "4 Months",
+      "totalHours": 120,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Conquer Class 11 & 12 calculus, trigonometry, coordinate geometry, and matrices for the NDA paper.",
+      "subjectIds": [
+        "def-maths"
+      ],
+      "facultyIds": [
+        "fac-3"
+      ],
+      "highlights": [
+        "120 Questions in 150 minutes pacing",
+        "Formula charts & speed algorithms",
+        "15 Math full mock tests",
+        "Live doubt lounge"
+      ]
+    },
+    {
+      "id": "course-def-cds",
+      "title": "CDS & AFCAT 2026: Officer Elite Live Program",
+      "slug": "cds-afcat-officer-elite-program",
+      "categoryId": "defence",
+      "trackId": "def-cds",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 7499,
+      "originalPrice": 11999,
+      "duration": "6 Months",
+      "totalHours": 250,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Target Indian Military Academy & Air Force Academy through structured live online lectures.",
+      "subjectIds": [
+        "def-maths",
+        "def-english",
+        "def-gk"
+      ],
+      "facultyIds": [
+        "fac-11",
+        "fac-10"
+      ],
+      "highlights": [
+        "IMA & OTA specialized streams",
+        "Extensive English Grammar drills",
+        "Online Doubt Lounges",
+        "Interview Orientation guidance"
+      ]
+    },
+    {
+      "id": "course-def-cds-english",
+      "title": "CDS Elementary Mathematics & Advanced English Strategy",
+      "slug": "cds-elementary-mathematics-advanced-english",
+      "categoryId": "defence",
+      "trackId": "def-cds",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 3999,
+      "originalPrice": 6499,
+      "duration": "4 Months",
+      "totalHours": 140,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Intensive course on arithmetic, algebra, mensuration, and high-scoring verbal ability for CDS.",
+      "subjectIds": [
+        "def-maths",
+        "def-english"
+      ],
+      "facultyIds": [
+        "fac-3",
+        "fac-10"
+      ],
+      "highlights": [
+        "Shortcuts for arithmetic & geometry",
+        "English grammar rules and idioms",
+        "20 Sectional tests",
+        "Weekly live problem sets"
+      ]
+    },
+    {
+      "id": "course-def-afcat-pilot",
+      "title": "AFCAT Flying & Ground Duty Comprehensive Live Batch",
+      "slug": "afcat-flying-ground-duty-comprehensive",
+      "categoryId": "defence",
+      "trackId": "def-afcat",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 5499,
+      "originalPrice": 8999,
+      "duration": "5 Months",
+      "totalHours": 210,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Numerical ability, verbal reasoning, military aptitude, and general awareness for the Air Force AFCAT examination.",
+      "subjectIds": [
+        "def-maths",
+        "def-english",
+        "def-gk"
+      ],
+      "facultyIds": [
+        "fac-11",
+        "fac-10"
+      ],
+      "highlights": [
+        "Spatial ability & mechanical reasoning",
+        "Defense current affairs compilation",
+        "25 Full-length computer mocks",
+        "SSB interview orientation guidance"
+      ]
+    },
+    {
+      "id": "course-def-afcat-reasoning",
+      "title": "AFCAT Military Aptitude & Spatial Reasoning Drills",
+      "slug": "afcat-military-aptitude-spatial-reasoning",
+      "categoryId": "defence",
+      "trackId": "def-afcat",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 1999,
+      "originalPrice": 3299,
+      "duration": "2.5 Months",
+      "totalHours": 70,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "High-speed practice for non-verbal reasoning, figure completion, rotated blocks, and analogy questions.",
+      "subjectIds": [
+        "def-gk"
+      ],
+      "facultyIds": [
+        "fac-11"
+      ],
+      "highlights": [
+        "500+ Spatial questions analyzed live",
+        "Timer based speed tests",
+        "Formula cheat sheet PDF",
+        "Doubt clearing assistance"
+      ]
+    },
+    {
+      "id": "course-teach-ctet",
+      "title": "CTET 2026: Target 130+ Marks Paper 1 & 2",
+      "slug": "ctet-target-130-paper-1-and-2",
+      "categoryId": "teaching",
+      "trackId": "teach-ctet",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 3999,
+      "originalPrice": 6499,
+      "duration": "5 Months",
+      "totalHours": 190,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "Learn child development theories, pedagogy frameworks, and subject fundamentals with Dr. Reena Gupta.",
+      "subjectIds": [
+        "teach-pedagogy",
+        "teach-language",
+        "teach-maths",
+        "teach-evs"
+      ],
+      "facultyIds": [
+        "fac-12"
+      ],
+      "highlights": [
+        "Pedagogy Question Banks",
+        "Previous 10 Years Solved Papers",
+        "Concept Flowcharts",
+        "NCERT EVS Summary Booklets"
+      ]
+    },
+    {
+      "id": "course-teach-ctet-pedagogy",
+      "title": "CTET Child Development & Pedagogy Specialist Batch",
+      "slug": "ctet-child-development-pedagogy-specialist",
+      "categoryId": "teaching",
+      "trackId": "teach-ctet",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 1999,
+      "originalPrice": 3299,
+      "duration": "3 Months",
+      "totalHours": 80,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "In-depth conceptual study of Piaget, Vygotsky, Kohlberg, inclusive education, and learning assessment tools.",
+      "subjectIds": [
+        "teach-pedagogy"
+      ],
+      "facultyIds": [
+        "fac-12"
+      ],
+      "highlights": [
+        "Child psychology theory simplified",
+        "500+ Tricky pedagogy questions solved",
+        "15 Subject mock tests",
+        "Comprehensive study charts"
+      ]
+    },
+    {
+      "id": "course-teach-state-tet-all",
+      "title": "State TET Paper 1 & 2 Complete Online Qualification",
+      "slug": "state-tet-complete-online-qualification",
+      "categoryId": "teaching",
+      "trackId": "teach-state-tet",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 3499,
+      "originalPrice": 5999,
+      "duration": "5 Months",
+      "totalHours": 180,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Designed for UPTET, REET, SuperTET, and Bihar TET aspirants with state-specific curriculum alignment.",
+      "subjectIds": [
+        "teach-pedagogy",
+        "teach-language",
+        "teach-maths",
+        "teach-evs"
+      ],
+      "facultyIds": [
+        "fac-12"
+      ],
+      "highlights": [
+        "State TET syllabus coverage",
+        "Bilingual explanations",
+        "30 Full online practice tests",
+        "Daily live doubt sessions"
+      ]
+    },
+    {
+      "id": "course-teach-state-tet-evs",
+      "title": "State TET Environmental Studies & Maths Pedagogy Lab",
+      "slug": "state-tet-evs-maths-pedagogy-lab",
+      "categoryId": "teaching",
+      "trackId": "teach-state-tet",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "BEGINNER",
+      "price": 1699,
+      "originalPrice": 2899,
+      "duration": "2.5 Months",
+      "totalHours": 70,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "High-scoring pedagogy shortcuts for mathematics and environmental science sections.",
+      "subjectIds": [
+        "teach-evs",
+        "teach-maths"
+      ],
+      "facultyIds": [
+        "fac-12"
+      ],
+      "highlights": [
+        "NCERT environmental science summary",
+        "Math pedagogy key concepts",
+        "20 Practice tests",
+        "Downloadable notes"
+      ]
+    },
+    {
+      "id": "course-psc-uppsc",
+      "title": "UPPSC PCS 2026-27: Samagra Prelims + Mains Online",
+      "slug": "uppsc-pcs-samagra-prelims-mains-batch",
+      "categoryId": "state-psc",
+      "trackId": "psc-uppsc",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 13999,
+      "originalPrice": 21999,
+      "duration": "12 Months",
+      "totalHours": 380,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "Complete UP Special papers, General Studies, and state current affairs taught by top PSC mentors.",
+      "subjectIds": [
+        "psc-polity",
+        "psc-history",
+        "psc-geography",
+        "psc-economy",
+        "psc-csat"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-7",
+        "fac-14"
+      ],
+      "highlights": [
+        "Special Coverage of UP GK & Culture",
+        "Mains Hindi & Essay Practice",
+        "Weekly Evaluation by Experts",
+        "Full Length Test Series"
+      ]
+    },
+    {
+      "id": "course-psc-uppsc-special",
+      "title": "UPPSC Special: Papers 5 & 6 Uttar Pradesh GK Intensive",
+      "slug": "uppsc-papers-5-6-uttar-pradesh-gk-intensive",
+      "categoryId": "state-psc",
+      "trackId": "psc-uppsc",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 5999,
+      "originalPrice": 9499,
+      "duration": "4 Months",
+      "totalHours": 130,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Master UP History, Geography, Polity, Economy, and Tourism for the newly introduced Mains Papers 5 & 6.",
+      "subjectIds": [
+        "psc-history",
+        "psc-geography",
+        "psc-economy"
+      ],
+      "facultyIds": [
+        "fac-14",
+        "fac-7"
+      ],
+      "highlights": [
+        "UP budget and economic survey analysis",
+        "District-wise cultural breakdown",
+        "15 Evaluated Mains answer papers",
+        "Handwritten revision charts"
+      ]
+    },
+    {
+      "id": "course-psc-bpsc-samagra",
+      "title": "BPSC 71st CCE: Bihar Special & General Studies Batch",
+      "slug": "bpsc-71st-cce-bihar-special-gs-batch",
+      "categoryId": "state-psc",
+      "trackId": "psc-bpsc",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 12999,
+      "originalPrice": 19999,
+      "duration": "11 Months",
+      "totalHours": 360,
+      "totalTests": 35,
+      "isFeatured": false,
+      "description": "Comprehensive preparation for Bihar Civil Services covering Bihar history, geography, budget, and CSAT.",
+      "subjectIds": [
+        "psc-polity",
+        "psc-history",
+        "psc-geography",
+        "psc-economy",
+        "psc-csat"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-14"
+      ],
+      "highlights": [
+        "Bihar ancient and modern history focus",
+        "Special science and technology lectures",
+        "35 Full CBT mock tests",
+        "Weekly answer evaluation"
+      ]
+    },
+    {
+      "id": "course-psc-bpsc-mains",
+      "title": "BPSC Mains Answer Writing & Bihar Economy Module",
+      "slug": "bpsc-mains-answer-writing-bihar-economy",
+      "categoryId": "state-psc",
+      "trackId": "psc-bpsc",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "ADVANCED",
+      "price": 5499,
+      "originalPrice": 8999,
+      "duration": "4 Months",
+      "totalHours": 120,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Step-by-step guidance on structuring high-scoring answers for BPSC GS-1, GS-2, and Essay papers.",
+      "subjectIds": [
+        "psc-economy",
+        "psc-polity"
+      ],
+      "facultyIds": [
+        "fac-6",
+        "fac-14"
+      ],
+      "highlights": [
+        "Daily answer feedback from mentors",
+        "Statistical analysis and graph interpretation",
+        "Essay writing workshops",
+        "Model answer booklets"
+      ]
+    },
+    {
+      "id": "course-psc-rpsc-ras",
+      "title": "RPSC RAS 2026: Rajasthan History, Art, Culture & GS",
+      "slug": "rpsc-ras-rajasthan-history-art-culture-gs",
+      "categoryId": "state-psc",
+      "trackId": "psc-rpsc",
+      "type": "FULL_COURSE",
+      "level": "INTERMEDIATE",
+      "price": 12999,
+      "originalPrice": 19999,
+      "duration": "10 Months",
+      "totalHours": 340,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Complete Rajasthan Administrative Services course with extensive coverage of state heritage and administrative governance.",
+      "subjectIds": [
+        "psc-history",
+        "psc-geography",
+        "psc-polity",
+        "psc-economy"
+      ],
+      "facultyIds": [
+        "fac-7",
+        "fac-14"
+      ],
+      "highlights": [
+        "Rajasthan folklore, forts, and literature notes",
+        "State economy and welfare schemes",
+        "30 Full syllabus mock tests",
+        "Live doubt clearing"
+      ]
+    },
+    {
+      "id": "course-psc-rpsc-prelims",
+      "title": "RPSC RAS Prelims High-Speed Test & Current Affairs Series",
+      "slug": "rpsc-ras-prelims-high-speed-test-series",
+      "categoryId": "state-psc",
+      "trackId": "psc-rpsc",
+      "type": "TEST_SERIES",
+      "level": "ADVANCED",
+      "price": 2499,
+      "originalPrice": 4299,
+      "duration": "4 Months",
+      "totalHours": 60,
+      "totalTests": 25,
+      "isFeatured": false,
+      "description": "25 Full-length tests strictly on the RPSC RAS Prelims pattern with comprehensive performance reports.",
+      "subjectIds": [
+        "psc-history",
+        "psc-economy",
+        "psc-csat"
+      ],
+      "facultyIds": [
+        "fac-14"
+      ],
+      "highlights": [
+        "25 Full-length tests with solutions",
+        "State current affairs quarterly digests",
+        "Instant ranking and percentiles",
+        "Video discussion of tricky questions"
+      ]
+    },
+    {
+      "id": "course-law-clat",
+      "title": "CLAT 2027: Jurisprudence 2-Year Online Cohort",
+      "slug": "clat-jurisprudence-2-year-cohort-2027",
+      "categoryId": "law",
+      "trackId": "law-clat",
+      "type": "FULL_COURSE",
+      "level": "BEGINNER",
+      "price": 16999,
+      "originalPrice": 25999,
+      "duration": "20 Months",
+      "totalHours": 480,
+      "totalTests": 50,
+      "isFeatured": true,
+      "description": "Passage-based reading techniques, constitutional doctrines, and rapid critical reasoning live sessions.",
+      "subjectIds": [
+        "law-english",
+        "law-legal",
+        "law-logical",
+        "law-gk",
+        "law-quant"
+      ],
+      "facultyIds": [
+        "fac-13",
+        "fac-10"
+      ],
+      "highlights": [
+        "600+ Reading Passages Analyzed",
+        "Constitutional Case Law Workshops",
+        "Weekly Editorial Analysis",
+        "50 Full Mock Tests"
+      ]
+    },
+    {
+      "id": "course-law-crash",
+      "title": "CLAT 2026: 60-Day Legal Passage Intensive",
+      "slug": "clat-60-day-legal-passage-intensive",
+      "categoryId": "law",
+      "trackId": "law-clat",
+      "type": "CRASH",
+      "level": "INTERMEDIATE",
+      "price": 5999,
+      "originalPrice": 9999,
+      "duration": "2 Months",
+      "totalHours": 90,
+      "totalTests": 20,
+      "isFeatured": false,
+      "description": "Speed up reading time, eliminate distractors, and practice curated mock passages daily.",
+      "subjectIds": [
+        "law-legal",
+        "law-logical"
+      ],
+      "facultyIds": [
+        "fac-13"
+      ],
+      "highlights": [
+        "High-frequency Legal Maxims",
+        "Daily 4-passage Drills",
+        "Proctored Timed Mocks",
+        "Score Improvement Clinics"
+      ]
+    },
+    {
+      "id": "course-law-clat-pg-llm",
+      "title": "CLAT PG LL.M. 2026: Constitutional & Jurisprudence Masterclass",
+      "slug": "clat-pg-llm-constitutional-jurisprudence",
+      "categoryId": "law",
+      "trackId": "law-clat",
+      "type": "FULL_COURSE",
+      "level": "ADVANCED",
+      "price": 12999,
+      "originalPrice": 19999,
+      "duration": "8 Months",
+      "totalHours": 260,
+      "totalTests": 30,
+      "isFeatured": false,
+      "description": "Advanced legal theory, Landmark Supreme Court judgments (2020-2026), and Public International Law for LL.M. aspirants.",
+      "subjectIds": [
+        "law-legal",
+        "law-logical"
+      ],
+      "facultyIds": [
+        "fac-13"
+      ],
+      "highlights": [
+        "Case law analysis of 100 landmark rulings",
+        "Comparative constitutional law modules",
+        "30 Full PG mock tests",
+        "Live judgment discussion lounges"
+      ]
+    },
+    {
+      "id": "course-law-clat-pg-corporate",
+      "title": "CLAT PG Corporate & Criminal Law Special Series",
+      "slug": "clat-pg-corporate-criminal-law-special",
+      "categoryId": "law",
+      "trackId": "law-clat",
+      "type": "SUBJECT_INTENSIVE",
+      "level": "INTERMEDIATE",
+      "price": 6499,
+      "originalPrice": 10499,
+      "duration": "4 Months",
+      "totalHours": 130,
+      "totalTests": 15,
+      "isFeatured": false,
+      "description": "Intensive module on Companies Act, Law of Contracts, Torts, and Criminal Law jurisprudence.",
+      "subjectIds": [
+        "law-legal"
+      ],
+      "facultyIds": [
+        "fac-13"
+      ],
+      "highlights": [
+        "Statutory interpretation frameworks",
+        "Previous 5 years CLAT PG question breakdowns",
+        "15 Sectional mock tests",
+        "Summary doctrine notes"
+      ]
+    }
+  ],
+  "FACULTY": [
+    {
+      "id": "fac-1",
+      "name": "Dr. Arvind Sharma",
+      "experience": "14+ Years Online Mentorship",
+      "qualifications": "B.Tech IIT Bombay, Ph.D. Physics",
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "jee",
+        "neet"
+      ],
+      "subjectIds": [
+        "jee-physics",
+        "jee-maths"
+      ],
+      "bio": "Ex-IITian with a passion for simplifying complex kinematics and electrodynamics through intuitive live animations."
+    },
+    {
+      "id": "fac-2",
+      "name": "Prof. Meenakshi Rao",
+      "experience": "12+ Years Teaching",
+      "qualifications": "M.Sc. Gold Medalist, Chemistry",
+      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "jee",
+        "neet"
+      ],
+      "subjectIds": [
+        "jee-chemistry",
+        "neet-biology"
+      ],
+      "bio": "Renowned inorganic and organic chemistry educator known for crisp mind-maps and exam-focused mnemonic techniques."
+    },
+    {
+      "id": "fac-3",
+      "name": "Rohan Deshmukh",
+      "experience": "11+ Years Experience",
+      "qualifications": "B.Tech IIT Delhi",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "jee",
+        "foundation"
+      ],
+      "subjectIds": [
+        "jee-maths",
+        "ssc-reasoning"
+      ],
+      "bio": "Calculus specialist who has trained over 15,000 online learners for competitive engineering entrances."
+    },
+    {
+      "id": "fac-4",
+      "name": "Dr. Sunita Varma",
+      "experience": "16+ Years Experience",
+      "qualifications": "MBBS, MD Bio-Sciences",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "neet",
+        "foundation"
+      ],
+      "subjectIds": [
+        "neet-biology",
+        "foundation-science"
+      ],
+      "bio": "Senior botanist and medical mentor renowned for line-by-line NCERT decoding and diagrammatic retention."
+    },
+    {
+      "id": "fac-5",
+      "name": "CA Rajesh Aggarwal",
+      "experience": "15+ Years CA Faculty",
+      "qualifications": "FCA, B.Com (Hons) SRCC",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "ca"
+      ],
+      "subjectIds": [
+        "ca-accounting",
+        "ca-taxation",
+        "ca-costing"
+      ],
+      "bio": "Fellow Chartered Accountant guiding CA aspirants across Accounting, Costing, and Tax laws with real corporate case studies."
+    },
+    {
+      "id": "fac-6",
+      "name": "Vikramaditya Sen",
+      "experience": "13+ Years Mentoring",
+      "qualifications": "MA Public Administration, JNU",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "upsc",
+        "state-psc"
+      ],
+      "subjectIds": [
+        "upsc-polity",
+        "upsc-economy"
+      ],
+      "bio": "Former civil servant and constitutional expert specializing in Indian Polity, Governance, and Ethics answer-writing."
+    },
+    {
+      "id": "fac-7",
+      "name": "Kavita Chawla",
+      "experience": "9+ Years Experience",
+      "qualifications": "M.Phil History, Delhi University",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "upsc",
+        "state-psc"
+      ],
+      "subjectIds": [
+        "upsc-history",
+        "upsc-geography"
+      ],
+      "bio": "UPSC modern history and art-and-culture faculty admired for timeline-based storytelling and thematic synthesis."
+    },
+    {
+      "id": "fac-8",
+      "name": "Abhishek Mathur",
+      "experience": "10+ Years Aptitude Trainer",
+      "qualifications": "CAT 99.8%iler, B.Tech",
+      "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "ssc",
+        "banking",
+        "railways"
+      ],
+      "subjectIds": [
+        "ssc-quant",
+        "ssc-reasoning"
+      ],
+      "bio": "The Quant wizard behind speed arithmetic and Vedic maths techniques for SSC CGL, Banking, and Railways."
+    },
+    {
+      "id": "fac-9",
+      "name": "Sneha Nambiar",
+      "experience": "8+ Years Experience",
+      "qualifications": "M.Sc. Mathematics",
+      "photo": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "ssc",
+        "banking",
+        "railways"
+      ],
+      "subjectIds": [
+        "bank-reasoning",
+        "foundation-mental-ability"
+      ],
+      "bio": "Reasoning puzzle master specializing in seating arrangements, syllogisms, and critical reasoning."
+    },
+    {
+      "id": "fac-10",
+      "name": "Pooja Bhatia",
+      "experience": "12+ Years English Mentor",
+      "qualifications": "MA English Literature, CELTA Certified",
+      "photo": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "ssc",
+        "banking",
+        "law"
+      ],
+      "subjectIds": [
+        "ssc-english",
+        "law-logical"
+      ],
+      "bio": "English language and verbal ability expert transforming grammar comprehension and error-spotting scores."
+    },
+    {
+      "id": "fac-11",
+      "name": "Col. Ranjit Pradhan (Retd.)",
+      "experience": "18+ Years Defence Guidance",
+      "qualifications": "National Defence Academy Alumnus, M.Sc.",
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "defence"
+      ],
+      "subjectIds": [
+        "def-gk",
+        "def-english"
+      ],
+      "bio": "Defence strategist training NDA and CDS aspirants in General Knowledge, military history, and mental agility."
+    },
+    {
+      "id": "fac-12",
+      "name": "Dr. Reena Gupta",
+      "experience": "14+ Years Pedagogy Specialist",
+      "qualifications": "Ph.D. Education, M.Ed.",
+      "photo": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "teaching"
+      ],
+      "subjectIds": [
+        "teach-pedagogy",
+        "teach-evs"
+      ],
+      "bio": "Child development and educational psychology scholar coaching CTET aspirants to 130+ marks."
+    },
+    {
+      "id": "fac-13",
+      "name": "Advocate Tanya Singhania",
+      "experience": "7+ Years CLAT Mentor",
+      "qualifications": "B.A. LL.B. (Hons) NLSIU Bengaluru",
+      "photo": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "law"
+      ],
+      "subjectIds": [
+        "law-legal",
+        "law-logical"
+      ],
+      "bio": "NLU graduate tutoring CLAT and AILET aspirants in high-scoring legal reasoning passages and constitution doctrines."
+    },
+    {
+      "id": "fac-14",
+      "name": "Suresh Tripathi",
+      "experience": "11+ Years Experience",
+      "qualifications": "MA Economics, UGC NET Qualified",
+      "photo": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80",
+      "categoryIds": [
+        "ssc",
+        "state-psc"
+      ],
+      "subjectIds": [
+        "psc-economy",
+        "psc-geography"
+      ],
+      "bio": "Expert in General Awareness and State PCS syllabus analysis, with a track record of predicting dynamic paper trends."
+    }
+  ],
+  "BATCHES": [
+    {
+      "id": "batch-jee-1",
+      "name": "Pinnacle JEE 2027 Morning Cohort A",
+      "courseId": "course-jee-target",
+      "facultyId": "fac-1",
+      "startDate": "2026-10-15",
+      "scheduleDays": "Mon, Wed, Fri",
+      "scheduleTime": "7:30 AM - 9:30 AM IST",
+      "capacity": 120,
+      "enrolledCount": 94,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-jee-2",
+      "name": "Pinnacle JEE 2027 Evening Cohort B",
+      "courseId": "course-jee-target",
+      "facultyId": "fac-3",
+      "startDate": "2026-10-20",
+      "scheduleDays": "Tue, Thu, Sat",
+      "scheduleTime": "6:30 PM - 8:30 PM IST",
+      "capacity": 120,
+      "enrolledCount": 110,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-jee-crash-1",
+      "name": "JEE 90-Day Express Online Fast-Track",
+      "courseId": "course-jee-crash",
+      "facultyId": "fac-1",
+      "startDate": "2026-10-12",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "5:00 PM - 8:00 PM IST",
+      "capacity": 150,
+      "enrolledCount": 132,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-neet-1",
+      "name": "Medico Premier 2027 Morning Batch Alpha",
+      "courseId": "course-neet-comprehensive",
+      "facultyId": "fac-4",
+      "startDate": "2026-10-14",
+      "scheduleDays": "Mon, Wed, Fri",
+      "scheduleTime": "7:00 AM - 9:00 AM IST",
+      "capacity": 100,
+      "enrolledCount": 88,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-neet-2",
+      "name": "Medico Premier 2027 Evening Batch Beta",
+      "courseId": "course-neet-comprehensive",
+      "facultyId": "fac-2",
+      "startDate": "2026-10-18",
+      "scheduleDays": "Tue, Thu, Sat",
+      "scheduleTime": "6:00 PM - 8:00 PM IST",
+      "capacity": 100,
+      "enrolledCount": 65,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-neet-dropper-1",
+      "name": "NEET Droppers Intensive Cohort",
+      "courseId": "course-neet-dropper",
+      "facultyId": "fac-4",
+      "startDate": "2026-10-16",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "10:00 AM - 1:00 PM IST",
+      "capacity": 120,
+      "enrolledCount": 102,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-fnd-10",
+      "name": "Class 10 Olympiad Champions Weekend",
+      "courseId": "course-foundation-class-10",
+      "facultyId": "fac-3",
+      "startDate": "2026-10-18",
+      "scheduleDays": "Sat & Sun",
+      "scheduleTime": "10:00 AM - 1:00 PM IST",
+      "capacity": 80,
+      "enrolledCount": 52,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-fnd-9",
+      "name": "Class 9 Early Prodigy Evening Cohort",
+      "courseId": "course-foundation-class-9",
+      "facultyId": "fac-4",
+      "startDate": "2026-10-22",
+      "scheduleDays": "Mon, Wed, Fri",
+      "scheduleTime": "5:30 PM - 7:00 PM IST",
+      "capacity": 80,
+      "enrolledCount": 41,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-ca-fnd-1",
+      "name": "CA Foundation Nov/May Target Online",
+      "courseId": "course-ca-foundation",
+      "facultyId": "fac-5",
+      "startDate": "2026-10-19",
+      "scheduleDays": "Mon to Thu",
+      "scheduleTime": "7:00 AM - 9:00 AM IST",
+      "capacity": 150,
+      "enrolledCount": 119,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-ca-tax-1",
+      "name": "CA Inter Direct & GST Practical Lab",
+      "courseId": "course-ca-inter-tax",
+      "facultyId": "fac-5",
+      "startDate": "2026-10-24",
+      "scheduleDays": "Tue, Thu, Sat",
+      "scheduleTime": "8:00 PM - 9:30 PM IST",
+      "capacity": 90,
+      "enrolledCount": 68,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-upsc-1",
+      "name": "UPSC CSE 2027 Foundation Cohort A",
+      "courseId": "course-upsc-foundation",
+      "facultyId": "fac-6",
+      "startDate": "2026-10-15",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "8:00 AM - 10:00 AM IST",
+      "capacity": 100,
+      "enrolledCount": 85,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-upsc-2",
+      "name": "UPSC CSE 2027 Evening Working Professionals",
+      "courseId": "course-upsc-foundation",
+      "facultyId": "fac-7",
+      "startDate": "2026-10-20",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "7:30 PM - 9:30 PM IST",
+      "capacity": 100,
+      "enrolledCount": 92,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-upsc-crash-1",
+      "name": "UPSC Prelims 75-Day Rapid Review",
+      "courseId": "course-upsc-prelims-crash",
+      "facultyId": "fac-6",
+      "startDate": "2026-10-25",
+      "scheduleDays": "Mon to Sat",
+      "scheduleTime": "6:00 PM - 8:00 PM IST",
+      "capacity": 120,
+      "enrolledCount": 78,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-ssc-1",
+      "name": "SSC CGL Lakshya Live Cohort 2027 (Evening)",
+      "courseId": "course-ssc-cgl-target",
+      "facultyId": "fac-8",
+      "startDate": "2026-10-14",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "6:30 PM - 8:30 PM IST",
+      "capacity": 200,
+      "enrolledCount": 172,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-ssc-2",
+      "name": "SSC CGL Lakshya Morning Batch",
+      "courseId": "course-ssc-cgl-target",
+      "facultyId": "fac-9",
+      "startDate": "2026-10-18",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "8:00 AM - 10:00 AM IST",
+      "capacity": 200,
+      "enrolledCount": 145,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-ssc-quant-1",
+      "name": "Abhishek Mathur Quant Special Cohort",
+      "courseId": "course-ssc-quant-mastery",
+      "facultyId": "fac-8",
+      "startDate": "2026-10-21",
+      "scheduleDays": "Mon, Wed, Fri",
+      "scheduleTime": "9:00 PM - 10:30 PM IST",
+      "capacity": 150,
+      "enrolledCount": 138,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-bank-1",
+      "name": "Bank PO Vijeta Prime Online Morning",
+      "courseId": "course-bank-po-clerk",
+      "facultyId": "fac-8",
+      "startDate": "2026-10-13",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "7:30 AM - 9:30 AM IST",
+      "capacity": 150,
+      "enrolledCount": 130,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-bank-2",
+      "name": "Bank PO Vijeta Evening Live Batch",
+      "courseId": "course-bank-po-clerk",
+      "facultyId": "fac-9",
+      "startDate": "2026-10-22",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "7:00 PM - 9:00 PM IST",
+      "capacity": 150,
+      "enrolledCount": 95,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-bank-puzzle-1",
+      "name": "Mains Puzzle & DI Advanced Sprint",
+      "courseId": "course-bank-puzzle-di",
+      "facultyId": "fac-9",
+      "startDate": "2026-10-27",
+      "scheduleDays": "Tue, Thu, Sat",
+      "scheduleTime": "8:30 PM - 10:00 PM IST",
+      "capacity": 100,
+      "enrolledCount": 76,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-rrb-1",
+      "name": "RRB NTPC CBT-1 Guaranteed Readiness",
+      "courseId": "course-rrb-ntpc",
+      "facultyId": "fac-14",
+      "startDate": "2026-10-17",
+      "scheduleDays": "Mon to Sat",
+      "scheduleTime": "4:00 PM - 6:00 PM IST",
+      "capacity": 180,
+      "enrolledCount": 140,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-def-nda-1",
+      "name": "NDA Shaurya Online Squad Alpha",
+      "courseId": "course-def-nda",
+      "facultyId": "fac-11",
+      "startDate": "2026-10-16",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "5:30 PM - 7:30 PM IST",
+      "capacity": 100,
+      "enrolledCount": 82,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-def-cds-1",
+      "name": "CDS Officer Elite Combined Online",
+      "courseId": "course-def-cds",
+      "facultyId": "fac-11",
+      "startDate": "2026-10-23",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "7:30 PM - 9:30 PM IST",
+      "capacity": 90,
+      "enrolledCount": 61,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-teach-1",
+      "name": "CTET Target 130+ Live Interactive Batch",
+      "courseId": "course-teach-ctet",
+      "facultyId": "fac-12",
+      "startDate": "2026-10-20",
+      "scheduleDays": "Tue, Thu, Sat",
+      "scheduleTime": "6:00 PM - 8:00 PM IST",
+      "capacity": 120,
+      "enrolledCount": 96,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-psc-uppsc-1",
+      "name": "UPPSC Samagra PCS Live Batch 2027",
+      "courseId": "course-psc-uppsc",
+      "facultyId": "fac-6",
+      "startDate": "2026-10-19",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "6:30 PM - 8:30 PM IST",
+      "capacity": 110,
+      "enrolledCount": 84,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-law-1",
+      "name": "CLAT Jurisprudence 2027 Live Cohort 1",
+      "courseId": "course-law-clat",
+      "facultyId": "fac-13",
+      "startDate": "2026-10-17",
+      "scheduleDays": "Mon, Wed, Fri, Sun",
+      "scheduleTime": "6:00 PM - 8:00 PM IST",
+      "capacity": 90,
+      "enrolledCount": 77,
+      "status": "UPCOMING"
+    },
+    {
+      "id": "batch-law-crash-1",
+      "name": "CLAT 60-Day Legal Reasoning Speed Drill",
+      "courseId": "course-law-crash",
+      "facultyId": "fac-13",
+      "startDate": "2026-10-24",
+      "scheduleDays": "Mon to Fri",
+      "scheduleTime": "8:00 PM - 9:30 PM IST",
+      "capacity": 100,
+      "enrolledCount": 89,
+      "status": "UPCOMING"
+    }
+  ],
+  "RESULTS": [
+    {
+      "id": "ach-1",
+      "studentName": "Priya Narayanan",
+      "category": "SSC",
+      "exam": "SSC CGL 2025",
+      "rankOrScore": "AIR 4 (ASO in MEA)",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "quote": "Learnist’s live online doubt room and daily speed drills doubled my arithmetic problem-solving speed without stepping out of my home."
+    },
+    {
+      "id": "ach-2",
+      "studentName": "Harsh Vardhan Singh",
+      "category": "JEE",
+      "exam": "JEE Advanced 2025",
+      "rankOrScore": "AIR 73 (IIT Bombay CSE)",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80",
+      "quote": "The depth of problem sets and live interactive simulations gave me crystal-clear physics clarity. The online test series ranked me accurately against 2 lakh learners."
+    },
+    {
+      "id": "ach-3",
+      "studentName": "Ananya Deshmukh",
+      "category": "NEET",
+      "exam": "NEET UG 2025",
+      "rankOrScore": "710/720 (AIIMS New Delhi)",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+      "quote": "NCERT line-by-line decoding and continuous proctored online mocks helped me eliminate silly mistakes completely in Botany and Zoology."
+    },
+    {
+      "id": "ach-4",
+      "studentName": "Aditya Srivastava",
+      "category": "UPSC",
+      "exam": "UPSC CSE 2024",
+      "rankOrScore": "AIR 18 (IAS)",
+      "year": 2024,
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "quote": "Learnist’s live online mains answer writing evaluation was the turning point in structuring multi-dimensional GS answers."
+    },
+    {
+      "id": "ach-5",
+      "studentName": "Megha Bansal",
+      "category": "CA",
+      "exam": "CA Foundation Nov 2024",
+      "rankOrScore": "364/400 (AIR 2)",
+      "year": 2024,
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "quote": "Rajesh Sir’s practical case illustrations made Law and Accounting intuitive. The flexibility of recorded replays fit my study timetable perfectly."
+    },
+    {
+      "id": "ach-6",
+      "studentName": "Kunal Verma",
+      "category": "Banking",
+      "exam": "SBI PO 2025",
+      "rankOrScore": "Selected (Scale 1 Officer)",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "quote": "High-level puzzle masterclasses taught me to identify which sets to skip and which to solve in under 4 minutes. A game changer."
+    },
+    {
+      "id": "ach-7",
+      "studentName": "Rohan Rathore",
+      "category": "Defence",
+      "exam": "NDA 154th Course",
+      "rankOrScore": "AIR 12",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+      "quote": "Col. Ranjit’s strict online discipline schedule and mathematics speed algorithms gave me the exact confidence needed for the written exam."
+    },
+    {
+      "id": "ach-8",
+      "studentName": "Shreya Kulkarni",
+      "category": "Law",
+      "exam": "CLAT UG 2025",
+      "rankOrScore": "AIR 29 (NLSIU Bengaluru)",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
+      "quote": "The reading comprehension passage drills and legal principles breakdown helped me complete the entire paper 15 minutes before time."
+    },
+    {
+      "id": "ach-9",
+      "studentName": "Manish Tiwari",
+      "category": "Railways",
+      "exam": "RRB NTPC 2024",
+      "rankOrScore": "Station Master (Top 0.1%)",
+      "year": 2024,
+      "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "quote": "General science lectures and speed maths tricks gave me an edge in CBT 2. Everything was taught seamlessly online."
+    },
+    {
+      "id": "ach-10",
+      "studentName": "Pooja Rawat",
+      "category": "Teaching",
+      "exam": "CTET Dec 2024",
+      "rankOrScore": "138/150 (Paper 1 & 2)",
+      "year": 2024,
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "quote": "Dr. Reena’s pedagogy framework and child psychology summaries eliminated all ambiguity from tricky conceptual questions."
+    },
+    {
+      "id": "ach-11",
+      "studentName": "Vivek Upadhyay",
+      "category": "State PSC",
+      "exam": "UPPSC PCS 2024",
+      "rankOrScore": "Rank 14 (Sub-Divisional Magistrate)",
+      "year": 2024,
+      "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      "quote": "The UP Special syllabus modules and daily evaluation of mains questions gave me top marks in GS Paper 5 and 6."
+    },
+    {
+      "id": "ach-12",
+      "studentName": "Divya Aggarwal",
+      "category": "Foundation",
+      "exam": "NTSE Stage 2 & Class 10 Boards",
+      "rankOrScore": "98.6% & NTSE Scholar",
+      "year": 2025,
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "quote": "Starting online foundation in Class 9 built my analytical thinking so well that school science felt effortless."
+    }
+  ],
+  "FAQS": [
+    {
+      "id": "faq-1",
+      "topic": "admissions",
+      "question": "How do online admissions work at Learnist Academy?",
+      "answer": "Admissions are 100% digital and paperless. Select your target exam, choose your course or batch, and complete enrollment online. You get instant access to the digital student dashboard, live class schedule, and study library within 60 seconds."
+    },
+    {
+      "id": "faq-2",
+      "topic": "admissions",
+      "question": "Can I book a free demo before enrolling?",
+      "answer": "Yes! You can book a complimentary live online demo class for any course. Click \"Book Free Demo\", pick your preferred date and time slot, and join the interactive live session from your laptop or phone."
+    },
+    {
+      "id": "faq-3",
+      "topic": "admissions",
+      "question": "Can I switch my batch or target year after enrollment?",
+      "answer": "Yes, batch flexibility is built into our online model. You can request a batch transfer or target-year shift through your student portal or by raising a quick request with our academic counselors without any penalty."
+    },
+    {
+      "id": "faq-4",
+      "topic": "fees",
+      "question": "Are there EMI or installment options available for course fees?",
+      "answer": "Yes, we provide 0% interest monthly EMI options across major credit cards, debit cards, and trusted Indian education financing partners on all comprehensive programs."
+    },
+    {
+      "id": "faq-5",
+      "topic": "fees",
+      "question": "Are there any hidden costs for test series or study notes?",
+      "answer": "None whatsoever. The course fee is all-inclusive. It covers live classes, recorded lecture vaults, printable PDF notes, full online mock tests, and 24/7 doubt resolution for the entire validity period."
+    },
+    {
+      "id": "faq-6",
+      "topic": "fees",
+      "question": "What online payment methods do you accept?",
+      "answer": "We accept UPI (Google Pay, PhonePe, Paytm), Net Banking across all Indian banks, Credit Cards, Debit Cards, and digital wallets."
+    },
+    {
+      "id": "faq-7",
+      "topic": "refunds",
+      "question": "What is your refund and cancellation policy?",
+      "answer": "We offer an unconditional 7-day money-back guarantee on all comprehensive full-course programs. If you feel the online teaching does not match your learning style within 7 days of course commencement, submit a 1-click refund request for a 100% refund."
+    },
+    {
+      "id": "faq-8",
+      "topic": "refunds",
+      "question": "How long does a refund take to process?",
+      "answer": "Once approved, refunds are credited back to your original source of payment within 4 to 6 business days."
+    },
+    {
+      "id": "faq-9",
+      "topic": "online_classes",
+      "question": "How do live online classes work?",
+      "answer": "Live classes stream in HD with two-way audio interaction, live chat, real-time polling, and digital whiteboard annotations. You can ask questions in real time via voice or chat."
+    },
+    {
+      "id": "faq-10",
+      "topic": "online_classes",
+      "question": "What happens if I miss a live online class?",
+      "answer": "Every single live lecture is automatically recorded in HD and uploaded to your student portal within 2 hours. You can re-watch unlimited times with variable playback speeds (0.75x to 2x)."
+    },
+    {
+      "id": "faq-11",
+      "topic": "online_classes",
+      "question": "Are batch schedules flexible for college students or working professionals?",
+      "answer": "Yes. Most categories have both early morning cohorts (7:00 AM – 9:00 AM) and late evening cohorts (6:30 PM – 9:30 PM), as well as dedicated weekend tracks."
+    },
+    {
+      "id": "faq-12",
+      "topic": "online_classes",
+      "question": "How are online mock tests conducted?",
+      "answer": "Tests simulate the exact CBT (Computer Based Test) environment of exams like JEE, SSC, or Banking, featuring sectional timers, negative marking, instant scorecards, and national percentile ranks."
+    },
+    {
+      "id": "faq-13",
+      "topic": "doubt_support",
+      "question": "How does online doubt solving work?",
+      "answer": "You have 3 modes of doubt support: 1) Live in-class voice/chat Q&A with the master educator; 2) Post-class daily live doubt lounges; 3) 24/7 Photo Doubt Assistant on your portal where expert teaching assistants reply within 30 minutes."
+    },
+    {
+      "id": "faq-14",
+      "topic": "doubt_support",
+      "question": "Can I request a 1-on-1 online academic mentorship session?",
+      "answer": "Yes! Enrolled students in comprehensive courses get bi-weekly 1-on-1 online video mentorship slots to review weak topics, strategy, and test performance analysis."
+    },
+    {
+      "id": "faq-15",
+      "topic": "doubt_support",
+      "question": "Is doubt support available on weekends and holidays?",
+      "answer": "Yes, our online doubt desks operate 7 days a week from 7:00 AM to 11:00 PM IST."
+    },
+    {
+      "id": "faq-16",
+      "topic": "devices",
+      "question": "What devices are supported for attending classes?",
+      "answer": "Learnist Academy runs seamlessly across any modern web browser on Laptops, Desktops (Windows/macOS/Linux), Android tablets/smartphones, iPads, and iPhones."
+    },
+    {
+      "id": "faq-17",
+      "topic": "devices",
+      "question": "What internet speed do I need for streaming live lectures?",
+      "answer": "Our adaptive video player adjusts dynamically. A stable connection of 2 Mbps is sufficient for smooth 720p streaming. For audio-only or mobile data, low-data modes are also supported."
+    },
+    {
+      "id": "faq-18",
+      "topic": "devices",
+      "question": "Can I download lecture notes and study material offline?",
+      "answer": "Yes. All topic notes, mind-maps, question sheets, and formula cheat-sheets are available as downloadable PDFs that you can save or print anytime."
+    },
+    {
+      "id": "faq-19",
+      "topic": "devices",
+      "question": "Can I log in from multiple devices?",
+      "answer": "You can log in from your laptop and mobile device. For security and anti-piracy, simultaneous live streaming on more than two devices at the exact same instant is restricted."
+    },
+    {
+      "id": "faq-20",
+      "topic": "devices",
+      "question": "Do you provide printed physical books to my home?",
+      "answer": "Learnist is 100% digital and eco-friendly. All materials are provided in high-resolution interactive digital formats and printable PDFs with embedded solution links."
+    }
+  ]
+}
