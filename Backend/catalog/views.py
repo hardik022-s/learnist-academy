@@ -71,7 +71,7 @@ class FacultyViewSet(viewsets.ReadOnlyModelViewSet):
 
 
 class BatchViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = m.Batch.objects.all()
+    queryset = m.Batch.objects.filter(course__is_active=True)
     serializer_class = s.BatchSerializer
     filterset_class = BatchFilter
     search_fields = ["name"]

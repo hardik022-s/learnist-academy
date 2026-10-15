@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from accounts.urls import student_urls
+from accounts.admin_api import admin_urls
 
 urlpatterns = [
     path("django-admin/", admin.site.urls),
@@ -24,4 +25,5 @@ urlpatterns = [
     path("api/", include("catalog.urls")),
     path("api/", include("leads.urls")),
     path("api/student/", include(student_urls)),
+    path("api/admin/", include(admin_urls)),
 ]

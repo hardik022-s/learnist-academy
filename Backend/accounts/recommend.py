@@ -80,7 +80,7 @@ def time_of_day(batch):
 
 def recommend_batches(p, rec_course_ids, limit=3):
     batches = (Batch.objects
-               .filter(enrolled_count__lt=F("capacity"))
+               .filter(enrolled_count__lt=F("capacity"), course__is_active=True)
                .filter(Q(course_id__in=rec_course_ids) | Q(course__category=p.category))
                .select_related("course"))
     ordered = sorted(batches, key=lambda b: (b.course_id not in rec_course_ids, b.start_date))
