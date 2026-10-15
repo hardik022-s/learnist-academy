@@ -8,3 +8,10 @@ urlpatterns = [
     path("refresh/", TokenRefreshView.as_view()),
     path("me/", MeView.as_view()),
 ]
+
+from .views import OnboardingView, StudentProfileView
+
+student_urls = [
+    path("onboarding/", OnboardingView.as_view()),
+    path("profile/", StudentProfileView.as_view()),
+]

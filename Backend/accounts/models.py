@@ -43,3 +43,28 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.email
+
+STAGES = ["Class 8", "Class 9", "Class 10", "Class 11", "Class 12",
+          "Dropper", "Graduate", "Working Professional"]
+
+
+class StudentProfile(models.Model):
+    class Level(models.TextChoices):
+        BEGINNER = "BEGINNER"
+        INTERMEDIATE = "INTERMEDIATE"
+        ADVANCED = "ADVANCED"
+
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="profile")
+    stage = models.CharField(max_length=30, choices=[(s, s) for s in STAGES])
+    category = models.ForeignKey("catalog.Category", on_delete=models.PROTECT)
+    track = models.ForeignKey("catalog.Track", on_delete=models.PROTECT)
+    target_year = models.PositiveSmallIntegerField()
+    subjects = models.ManyToManyField("catalog.Subject", related_name="+")
+    weak_subjects = models.ManyToManyField("catalog.Subject", related_name="+", blank=True)
+    level = models.CharField(max_length=15, choices=Level.choices)
+    hours_per_day = models.PositiveSmallIntegerField(default=3)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"Profile of {self.user.email}"
