@@ -12,6 +12,8 @@ from .serializers import LoginSerializer, RegisterSerializer, UserSerializer
 from django.utils import timezone
 from catalog.serializers import BatchSerializer, CourseSerializer, SubjectSerializer
 from .recommend import (profile_completion, recommend_batches, recommend_courses, study_plan)
+from leads.models import DemoBooking
+from leads.serializers import DemoBookingSerializer
 
 
 class RegisterView(generics.CreateAPIView):
@@ -80,6 +82,8 @@ class StudentProfileView(APIView):
         ser.save()
         return Response(ser.data)
 
+
+
 class DashboardView(APIView):
     permission_classes = [IsAuthenticated, IsStudentRole]
 
@@ -95,6 +99,10 @@ class DashboardView(APIView):
         hour = timezone.localtime().hour
         greet = "Good morning" if hour < 12 else "Good afternoon" if hour < 17 else "Good evening"
         first_name = request.user.name.split()[0] if request.user.name else ""
+        upcoming = (DemoBooking.objects
+                .filter(user=request.user, preferred_date__gte=timezone.localdate(),
+                        status__in=["PENDING", "CONFIRMED"])
+                .select_related("course", "batch").order_by("preferred_date").first())
 
         return Response({
             "student": UserSerializer(request.user).data,
@@ -107,6 +115,6 @@ class DashboardView(APIView):
             "recommendedSubjects": [{**SubjectSerializer(s).data, "weak": s.id in weak}
                                     for s in p.subjects.all()],
             "studyFocus": {"hoursPerDay": p.hours_per_day, "week": study_plan(p)},
-            "upcomingDemo": None,                 # filled in Step 7 (demo bookings)
+            "upcomingDemo":DemoBookingSerializer(upcoming).data if upcoming else None,
             "profileCompletion": profile_completion(p),
         })

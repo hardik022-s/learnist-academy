@@ -138,7 +138,7 @@ REST_FRAMEWORK = {
         "rest_framework.filters.OrderingFilter",
     ],
     "DEFAULT_THROTTLE_CLASSES": ["rest_framework.throttling.AnonRateThrottle"],
-    "DEFAULT_THROTTLE_RATES": {"anon": "300/hour", "auth": "10/min"},
+    "DEFAULT_THROTTLE_RATES": {"anon": "300/hour", "auth": "10/min" , "forms": "20/hour"},
 }
 
 SIMPLE_JWT = {
