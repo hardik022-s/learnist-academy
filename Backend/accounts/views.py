@@ -8,8 +8,10 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 from .models import StudentProfile
 from .permissions import IsStudentRole
 from .serializers import StudentProfileSerializer
-
 from .serializers import LoginSerializer, RegisterSerializer, UserSerializer
+from django.utils import timezone
+from catalog.serializers import BatchSerializer, CourseSerializer, SubjectSerializer
+from .recommend import (profile_completion, recommend_batches, recommend_courses, study_plan)
 
 
 class RegisterView(generics.CreateAPIView):
@@ -77,3 +79,34 @@ class StudentProfileView(APIView):
         ser.is_valid(raise_exception=True)
         ser.save()
         return Response(ser.data)
+
+class DashboardView(APIView):
+    permission_classes = [IsAuthenticated, IsStudentRole]
+
+    def get(self, request):
+        p = (StudentProfile.objects.select_related("category", "track")
+             .filter(user=request.user).first())
+        if not p:
+            return Response({"detail": "Onboarding not completed."}, status=409)
+
+        recs = recommend_courses(p)
+        rec_ids = {c.id for c, _ in recs}
+        weak = {s.id for s in p.weak_subjects.all()}
+        hour = timezone.localtime().hour
+        greet = "Good morning" if hour < 12 else "Good afternoon" if hour < 17 else "Good evening"
+        first_name = request.user.name.split()[0] if request.user.name else ""
+
+        return Response({
+            "student": UserSerializer(request.user).data,
+            "profile": StudentProfileSerializer(p).data,
+            "greeting": f"{greet}, {first_name}",
+            "summary": f"Preparing for {p.category.name} {p.track.name} {p.target_year}",
+            "recommendedCourses": [{**CourseSerializer(c).data, "reason": r} for c, r in recs],
+            "recommendedBatches": [{**BatchSerializer(b).data, "reason": r, "seatsLeft": left}
+                                   for b, r, left in recommend_batches(p, rec_ids)],
+            "recommendedSubjects": [{**SubjectSerializer(s).data, "weak": s.id in weak}
+                                    for s in p.subjects.all()],
+            "studyFocus": {"hoursPerDay": p.hours_per_day, "week": study_plan(p)},
+            "upcomingDemo": None,                 # filled in Step 7 (demo bookings)
+            "profileCompletion": profile_completion(p),
+        })
